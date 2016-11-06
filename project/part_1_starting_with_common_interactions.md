@@ -2,60 +2,57 @@
 
 1.  Fork the DrinkOrderApp repository ([bit.ly/CnCDrinkApp](https://www.google.com/url?q=http://bit.ly/CnCDrinkApp&sa=D&ust=1478465001097000&usg=AFQjCNH9ExQF2ZKCvBQ0aNG3T7FYe9xDwQ)) to your own account.
 
-1.  Clone the repository to your computer using Git Bash (Windows)  or iTerm2 (Macs) and checkout the jquery-master branch to have a clean starting point for tonight’s project.
+1.  Clone the repository to your computer using Git Bash (Windows)  or iTerm2 (Macs) and checkout the **jquery-master branch** to have a clean starting point for tonight’s project.
 
-1.  Open the index.html file in Google Chrome and try clicking the buttons.  Not very exciting yet, is it?
+1.  Open the **index.html** file in Google Chrome and try clicking the buttons.  Not very exciting yet, is it?
 
-1.  Open the DrinkOrderApp folder in Sublime Text. (Check out our #codingandcocktails Slack channel at [kcwit.slack.com](https://www.google.com/url?q=http://kcwit.slack.com&sa=D&ust=1478465001101000&usg=AFQjCNFMSx87xEDMJXGjwC-ldhqmr9aXXg) and search for &quot;Coding &amp; Cocktails tip of the week&quot; (quotes included) for a reminder on how to open the whole project folder for easy access to all of your project files as you work.
+1.  Open the **DrinkOrderApp folder** in Sublime Text.
+ Hint: Check out our *#codingandcocktails* Slack channel at [kcwit.slack.com](https://www.google.com/url?q=http://kcwit.slack.com&sa=D&ust=1478465001101000&usg=AFQjCNFMSx87xEDMJXGjwC-ldhqmr9aXXg) and search for &quot;Coding &amp; Cocktails tip of the week&quot; (quotes included) for a reminder on how to open the whole project folder for easy access to all of your project files as you work.
 
-1.  First we need to connect our HTML and our JavaScript.  This is similar to connecting our CSS files with &lt;link&gt; tags as we discussed in the HTML &amp; CSS session as well as in the CSS Compiler session but with a different HTML tag.
+1.  First we need to connect our HTML and our JavaScript.  This is similar to connecting our CSS files with `<link>` tags as we discussed in the HTML &amp; CSS session as well as in the CSS Compiler session but with a different HTML tag.
 
-1.  Add a &lt;script&gt; tag for the jQuery library ([jquery-1.12.3.min.js](https://www.google.com/url?q=https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/blob/jquery-master/assets/lib/jquery-1.12.3.min.js&sa=D&ust=1478465001104000&usg=AFQjCNGu8qGW-WYNlBHwzlzR9ABIcGKm3A) found in the assets/lib folder)  in the &lt;head&gt; section of the index.html page.
+  1.  Add a `<script>` tag for the jQuery library ([jquery-1.12.3.min.js](https://www.google.com/url?q=https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/blob/jquery-master/assets/lib/jquery-1.12.3.min.js&sa=D&ust=1478465001104000&usg=AFQjCNGu8qGW-WYNlBHwzlzR9ABIcGKm3A) found in the **assets/lib** folder)  in the `<head>` section of the **index.html** page.
 
-&lt;script src=&quot;assets/lib/jquery-1.12.3.min.js&quot;&gt;&lt;/script&gt;
+      `&lt;script src=&quot;assets/lib/jquery-1.12.3.min.js&quot;&gt;&lt;/script&gt;`
 
-1.  Add a &lt;script&gt; tag with a src attribute  for your script file (my -scripts.js found in the assets/scripts folder) in the &lt;head&gt; section of the index.html page  - Remember, order matters! Hint: [bit.ly/scriptElement](https://www.google.com/url?q=http://bit.ly/scriptElement&sa=D&ust=1478465001107000&usg=AFQjCNGGBgb6RmAH_zRr5ahiZPKi8HOWeg) or [bit.ly/StartjQuery](https://www.google.com/url?q=http://bit.ly/StartjQuery&sa=D&ust=1478465001108000&usg=AFQjCNGrFFQhedkvMZmSRc6-7458mBCZ4A) 
+   1.  Add a `<script>` tag with a `src` attribute  for your script file (**my-scripts.js** found in the **assets/scripts** folder) in the `<head>` section of the **index.html** page  - Remember, order matters! Hint: [bit.ly/scriptElement](https://www.google.com/url?q=http://bit.ly/scriptElement&sa=D&ust=1478465001107000&usg=AFQjCNGGBgb6RmAH_zRr5ahiZPKi8HOWeg) or [bit.ly/StartjQuery](https://www.google.com/url?q=http://bit.ly/StartjQuery&sa=D&ust=1478465001108000&usg=AFQjCNGrFFQhedkvMZmSRc6-7458mBCZ4A) 
 
-1.  Open my-scripts.js in Sublime Text from the assets/scripts folder. This is where you’ll be adding your jQuery code.
+1.  Open **my-scripts.js** in Sublime Text from the assets/scripts folder. This is where you’ll be adding your jQuery code.
 
-1.  First we need to make sure we wait until our HTML document is ready before we run anything on it.  Remember we do this using $(document).ready();  Hint: [bit.ly/docReady](https://www.google.com/url?q=http://bit.ly/docReady&sa=D&ust=1478465001110000&usg=AFQjCNFPlR8KVar8yLLamN-w76KLh-3Fxw) Don’t forget that we need a function in there so we can actually run our code!
+1.  First we need to make sure we wait until our HTML document is ready before we run anything on it.  Remember we do this using `$(document).ready();`  Hint: [bit.ly/docReady](https://www.google.com/url?q=http://bit.ly/docReady&sa=D&ust=1478465001110000&usg=AFQjCNFPlR8KVar8yLLamN-w76KLh-3Fxw) Don’t forget that we need a function in there so we can actually run our code!
 
-1.  We’ll want to be able to see our menu so we need to make the “Show Menu” button function properly.  When we click the button we want to display the #menu div.
+1.  We’ll want to be able to see our menu so we need to make the “Show Menu” button function properly.  When we click the button we want to display the `#menu` div.
 
-1.  First we have to capture the event inside your $(document).ready(function () { ... }); code in my-scripts.js
+  1.  First we have to capture the event inside your `$(document).ready(function () { ... });` code in **my-scripts.js**
 
-1.  Select your button (check out index.html to find the button’s id to select)
-2.  Add the click event handler to the button. Hint: [bit.ly/CnCClick](https://www.google.com/url?q=http://bit.ly/CnCClick&sa=D&ust=1478465001113000&usg=AFQjCNHm07TlRid6qHzno0aKOBmET9HrBw)
+      1.  Select your button (check out index.html to find the button’s id to select)
+      2.  Add the click event handler to the button.
+   Hint: `$(“#my-id”).click();`
 
-Hint: $(“#my-id”).click();
+  1.  Next we have to add our action:
 
-1.  Next we have to add our action:
+      1.  Inside of the click event handler we need to add the function to run the action we’re going to do.  This is similar to how we created the function to run when the document is ready. Hint: `$(“#my-id”).click(function () { … });`
 
-1.  Inside of the click event handler we need to add the function to run the action we’re going to do.  This is similar to how we created the function to run when the document is ready.
-
-Hint: $(“#my-id”).click(function () { … });
-
-1.  Inside of that function, select the element you want to act on, in this case the #menu div.
-2.  Add a jQuery action to show that HTML div. Hint: [bit.ly/CnCShow](https://www.google.com/url?q=http://bit.ly/CnCShow&sa=D&ust=1478465001116000&usg=AFQjCNGx61SxwkGp2SudI6xRM9Y60mheMw)
-
-Hint: $(“#my-id”).show();
+      1.  Inside of that function, select the element you want to act on, in this case the #menu div.
+      2.  Add a jQuery action to show that HTML div. Hint: `$("#my-id").show();`
 
 1.  Refresh the open index.html in Google Chrome and try clicking the Show button.  It should display a menu when you click on it.
 
-1.  Now that we’ve displayed the menu we want to be able to hide it when we don’t want to see it. Hide the #menu div element when the hide menu button is clicked in my-scripts.js.  This will be very similar to what we just did with the show menu button but a different action on the div.
+1.  Now that we’ve displayed the menu we want to be able to hide it when we don’t want to see it. Hide the `#menu` div element when the hide menu button is clicked in **my-scripts.js**.  This will be very similar to what we just did with the show menu button but a different action on the div.
 
-1.  First we have to capture the event:
+  1.  First we have to capture the event:
 
-1.  Select your button (check out index.html to find the button’s id to select)
-2.  Add the click event handler to the button. Hint: [bit.ly/CnCClick](https://www.google.com/url?q=http://bit.ly/CnCClick&sa=D&ust=1478465001119000&usg=AFQjCNGFLGYK72Z48aU6ZdHoxPLn8iGxog)
+      1.  Select your button (check out index.html to find the button’s id to select)
+      2.  Add the click event handler to the button. Hint: [bit.ly/CnCClick](https://www.google.com/url?q=http://bit.ly/CnCClick&sa=D&ust=1478465001119000&usg=AFQjCNGFLGYK72Z48aU6ZdHoxPLn8iGxog)
 
-1.  Next we have to add our action:
+  1.  Next we have to add our action:
 
-1.  Inside of the click event handler we need to add the function to run the action we’re going to do.  This is similar to how we created the function to run when the document is ready.
-2.  Inside of that function, select the element you want to act on, in this case the #menu div. Hint: [bit.ly/CnCSelect](https://www.google.com/url?q=http://bit.ly/CnCSelect&sa=D&ust=1478465001120000&usg=AFQjCNGaRchbzwN8596cSVEIHMgC15TjMw)
-3.  Add a jQuery action to show that HTML div. Hint: [bit.ly/CnCHide](https://www.google.com/url?q=http://bit.ly/CnCHide&sa=D&ust=1478465001121000&usg=AFQjCNF9S4iE-RvWIXx6KJXlfMajErm5JA)
+      1.  Inside of the click event handler we need to add the function to run the action we’re going to do.  This is similar to how we created the function to run when the document is ready.
+      2.  Inside of that function, select the element you want to act on, in this case the `#menu` div. Hint: [bit.ly/CnCSelect](https://www.google.com/url?q=http://bit.ly/CnCSelect&sa=D&ust=1478465001120000&usg=AFQjCNGaRchbzwN8596cSVEIHMgC15TjMw)
+      3.  Add a jQuery action to show that HTML div. Hint: [bit.ly/CnCHide](https://www.google.com/url?q=http://bit.ly/CnCHide&sa=D&ust=1478465001121000&usg=AFQjCNF9S4iE-RvWIXx6KJXlfMajErm5JA)
 
-You’ve added your first interactivity to your website! Celebrate with a toast with your neighbor!
+    **You’ve added your first interactivity to your website! Celebrate with a toast with your neighbor!**
+
 
 1.  Next we’re going to practice another common interaction on web pages: changing element styling triggered by an event.  When the checkbox next to a drink is selected, make the background of the drink label change colors.
 
