@@ -4,7 +4,7 @@ Next we’re going to add in a content slider on our page.  This is very useful 
 
 1.  Checkout the **add-slider** branch and this will be our starting point for the content slider piece.  We’ve already included the bxSlider library in our project for you as well as the necessary HTML markup.  You’re going to add the interactivity!
 
-1.  First we need to connect the bxSlider script file and CSS styling to our **index.html** file so everything will work!  You will find the JavaScript file and the CSS file in the **assets/lib/jquery.bxslider** folder.  Don’t forget one of these utilizes a script tag and the other uses a link tag! **Hint**: see step 1 of the “How to Install” section on [bxslider.com](https://www.google.com/url?q=http://bxslider.com/&sa=D&ust=1478465001143000&usg=AFQjCNF_LD_iPyCbCafnDyNst5RhU0sXEQ)
+1.  First we need to connect the bxSlider script file and CSS styling to our **index.html** file so everything will work!  You will find the JavaScript file and the CSS file in the **assets/lib/jquery.bxslider** folder.  Don’t forget one of these utilizes a `script` tag and the other uses a `link` tag! **Hint**: see step 1 of the “How to Install” section on [bxslider.com](https://www.google.com/url?q=http://bxslider.com/&sa=D&ust=1478465001143000&usg=AFQjCNF_LD_iPyCbCafnDyNst5RhU0sXEQ)
 
 1.  Look at the **index.html** section and see the unordered list element (`ul` element) with a bxslider class to see the markup for this slider.
 
