@@ -13,7 +13,7 @@
 
   1.  Add a `<script>` tag for the jQuery library ([jquery-1.12.3.min.js](https://www.google.com/url?q=https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/blob/jquery-master/assets/lib/jquery-1.12.3.min.js&sa=D&ust=1478465001104000&usg=AFQjCNGu8qGW-WYNlBHwzlzR9ABIcGKm3A) found in the **assets/lib** folder)  in the `<head>` section of the **index.html** page.
 
-      `&lt;script src=&quot;assets/lib/jquery-1.12.3.min.js&quot;&gt;&lt;/script&gt;`
+      `<script src="assets/lib/jquery-1.12.3.min.js" </script>`
 
    1.  Add a `<script>` tag with a `src` attribute  for your script file (**my-scripts.js** found in the **assets/scripts** folder) in the `<head>` section of the **index.html** page  - Remember, order matters! Hint: [bit.ly/scriptElement](https://www.google.com/url?q=http://bit.ly/scriptElement&sa=D&ust=1478465001107000&usg=AFQjCNGGBgb6RmAH_zRr5ahiZPKi8HOWeg) or [bit.ly/StartjQuery](https://www.google.com/url?q=http://bit.ly/StartjQuery&sa=D&ust=1478465001108000&usg=AFQjCNGrFFQhedkvMZmSRc6-7458mBCZ4A) 
 
