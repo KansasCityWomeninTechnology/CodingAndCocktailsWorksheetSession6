@@ -85,4 +85,4 @@
 
 1.  When you’ve worked through each piece of interaction, compare your code to our answer key here: [bit.ly/CnCJQKey](https://www.google.com/url?q=http://bit.ly/CnCJQKey&sa=D&ust=1478465001139000&usg=AFQjCNFWDkypYN04_B0SfWNUXHcpaF8HGw) 
 
-**Take a break and grab another drink! You’ve earned it!**
+![](../images/drink.png)
