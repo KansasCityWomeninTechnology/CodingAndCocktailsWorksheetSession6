@@ -1,4 +1,4 @@
-### Part 1:  Starting with common interactions {#part-1-starting-with-common-interactions}
+### Part 2:  Starting with common interactions
 
 1.  Fork the DrinkOrderApp repository ([bit.ly/CnCDrinkApp](https://www.google.com/url?q=http://bit.ly/CnCDrinkApp&sa=D&ust=1478465001097000&usg=AFQjCNH9ExQF2ZKCvBQ0aNG3T7FYe9xDwQ)) to your own account.
 
@@ -15,7 +15,7 @@
 
       `<script src="assets/lib/jquery-1.12.3.min.js"></script>`
 
-   1.  Add a `<script>` tag with a `src` attribute  for your script file (**my-scripts.js** found in the **assets/scripts** folder) in the `<head>` section of the **index.html** page  - Remember, order matters! Hint: [bit.ly/scriptElement](https://www.google.com/url?q=http://bit.ly/scriptElement&sa=D&ust=1478465001107000&usg=AFQjCNGGBgb6RmAH_zRr5ahiZPKi8HOWeg) or [bit.ly/StartjQuery](https://www.google.com/url?q=http://bit.ly/StartjQuery&sa=D&ust=1478465001108000&usg=AFQjCNGrFFQhedkvMZmSRc6-7458mBCZ4A) 
+   1.  Add a `<script>` tag with a `src` attribute  for your script file (**my-scripts.js** found in the **assets/scripts** folder) in the `<head>` section of the **index.html** page  - Remember, order matters! Hint: [bit.ly/scriptElement](https://www.google.com/url?q=http://bit.ly/scriptElement&sa=D&ust=1478465001107000&usg=AFQjCNGGBgb6RmAH_zRr5ahiZPKi8HOWeg) or [bit.ly/StartjQuery](https://www.google.com/url?q=http://bit.ly/StartjQuery&sa=D&ust=1478465001108000&usg=AFQjCNGrFFQhedkvMZmSRc6-7458mBCZ4A)
 
 1.  Open **my-scripts.js** in Sublime Text from the assets/scripts folder. This is where you’ll be adding your jQuery code.
 
@@ -83,6 +83,6 @@
           1.  First select the **div** section you want to act on.  (find the id of the element in the **index.html** file and select it)
           2.  Next we’ll use append or html to add the **h1** tag and content inside the div.  See the “JavaScript String Operators” section of the JavaScript Operators page: [bit.ly/CnCOps](http://bit.ly/CnCOps) for a reminder on how to use your variable with other static text.
 
-1.  When you’ve worked through each piece of interaction, compare your code to our answer key here: [bit.ly/CnCJQKey](http://bit.ly/CnCJQKey) 
+1.  When you’ve worked through each piece of interaction, compare your code to our answer key here: [bit.ly/CnCJQKey](http://bit.ly/CnCJQKey)
 
 ![](../images/drink.png)
