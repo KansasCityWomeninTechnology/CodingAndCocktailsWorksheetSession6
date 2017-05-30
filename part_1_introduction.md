@@ -21,6 +21,8 @@ Make sure to remove the angle brackets <> around the text so your code will work
 
 3. The lower portion of the pen should display the output of your code.
 
+    ![](/images/codepen-output.png)
+
 4. Change the first variable's value to the string "5" and the second variable's value to the number 5.
 
     {% hint style='tip' %}
