@@ -41,11 +41,13 @@ The variable value is the portion to the right of the = sign.
 1. In Google Chrome, navigate to https://codepen.io/CodingCocktailsKC/pen/EmBPYM
 
 2. In the JS editor, look for the Mad Libs items to replace. Remember these are the noun or verb text surrounded by angle brackets: **< noun_2>**.
+
     {% hint style='tip' %}
 Make sure to replace all instances of a variable with the same noun or verb!
 
 Make sure to remove the angle brackets <> around the text so your code will work!
     {% endhint %}
+    
 3. The lower portion of the pen should display the output of your code.
 
 4. Try changing the variable value or the return value of the function.
