@@ -15,7 +15,6 @@ A verb is a word used to describe an action such as "make" or "become."
 
 {% hint style='tip' %}
 Make sure to replace all instances of a variable with the same noun!
-
 Make sure to remove the angle brackets <> around the text so your code will work!
 {% endhint %}
 
@@ -45,7 +44,6 @@ The variable value is the portion to the right of the = sign.
 
 {% hint style='tip' %}
 Make sure to replace all instances of a variable with the same noun or verb!
-
 Make sure to remove the angle brackets <> around the text so your code will work!
 {% endhint %}
 
