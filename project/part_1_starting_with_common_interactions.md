@@ -1,42 +1,24 @@
-\#\#\# Part 2:  Starting with common interactions
+### Part 2:  Starting with common interactions
 
-
-
-\#\#\#\# Setup
-
-
+#### Setup
 
 1.  In your CodingAndCocktails folder in your home directory, create a JavaScript folder.
 
-
-
 2. Download the project starting point from https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/archive/jquery-master.zip and put it in that JavaScript folder. 
-
-
 
 3. Unzip it. 
 
-\# TODO
+# TODO
 
+3. In Atom, open the DrinkOrderApp folder by going to the File menu and choosing **Add Project Folder**. Navigate to the unzipped DrinkOrderApp folder that you created and click OK.
 
-
-3. In Atom, open the DrinkOrderApp folder by going to the File menu and choosing \*\*Add Project Folder\*\*. Navigate to the unzipped DrinkOrderApp folder that you created and click OK.
-
-
-
-4.  In Google Chrome, open the \*\*index.html\*\* file and try clicking the buttons.  Not very exciting yet, is it?
-
+4.  In Google Chrome, open the **index.html** file and try clicking the buttons.  Not very exciting yet, is it?
  
-
-\#\#\#\# Connecting HTML & JavaScript
-
-
+#### Connecting HTML & JavaScript
 
 1. Connect the HTML & the JavaScript files.
 
-
-
-  1.  Add a \`&lt;script&gt;\` tag for the jQuery library \(\[jquery-1.12.3.min.js\]\(https://www.google.com/url?q=https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/blob/jquery-master/assets/lib/jquery-1.12.3.min.js&sa=D&ust=1478465001104000&usg=AFQjCNGu8qGW-WYNlBHwzlzR9ABIcGKm3A\) found in the \*\*assets/lib\*\* folder\)  in the \`&lt;head&gt;\` section of the \*\*index.html\*\* page.
+  1.  Add a &lt;script&gt; tag for the jQuery library \(\[jquery-1.12.3.min.js\]\(https://www.google.com/url?q=https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/blob/jquery-master/assets/lib/jquery-1.12.3.min.js&sa=D&ust=1478465001104000&usg=AFQjCNGu8qGW-WYNlBHwzlzR9ABIcGKm3A\) found in the \*\*assets/lib\*\* folder\)  in the \`&lt;head&gt;\` section of the \*\*index.html\*\* page.
 
   \# TODO: Update jQuery version
 
