@@ -1,0 +1,352 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Part 1: Intruducing JavaScript & jQuery · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="project/part_1_starting_with_common_interactions.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="part_1_introduction.html">
+            
+                <a href="part_1_introduction.html">
+            
+                    
+                    Part 1: Intruducing JavaScript & jQuery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="project/part_1_starting_with_common_interactions.html">
+            
+                <a href="project/part_1_starting_with_common_interactions.html">
+            
+                    
+                    Part 2:  Starting with common interactions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="project/part_2_content_slider.md">
+            
+                <span>
+            
+                    
+                    Part 3:  Content Slider
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="homework.html">
+            
+                <a href="homework.html">
+            
+                    
+                    Homework
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Part 1: Intruducing JavaScript & jQuery</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="part-1-introducing-javascript">Part 1: Introducing JavaScript</h3>
+<p>In part 1 you&apos;ll start practicing the JavaScript concepts covered in the presentation.  This will be done Mad Libs style to start.  Items to be replaced will look like this: <strong>&lt; noun_1&gt;</strong>.  You&apos;ll replace everything including the angle brackets so <strong>&lt; noun_1&gt;</strong> might become <strong>drink</strong>.</p>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>A noun is a person, place or thing such as &quot;pen&quot; or &quot;drink.&quot;</p>
+<p>A verb is a word used to describe an action such as &quot;make&quot; or &quot;become.&quot;</p>
+</div></div></p>
+<h4 id="variables-booleans-operators-and-comparison">Variables, Booleans, Operators and Comparison</h4>
+<ol>
+<li><p>In Google Chrome, navigate to <a href="https://codepen.io/CodingCocktailsKC/pen/EmBPYM" target="_blank">https://codepen.io/CodingCocktailsKC/pen/EmBPYM</a></p>
+</li>
+<li><p>In the JS editor, look for the Mad Libs items to replace. Remember these are the noun or verb text surrounded by angle brackets: <strong>&lt; noun_2&gt;</strong>.</p>
+<p> <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>Make sure to replace all instances of a variable with the same noun!</p>
+<p>Make sure to remove the angle brackets &lt;&gt; around the text so your code will work!</p>
+</div></div></p>
+</li>
+<li><p>The lower portion of the pen should display the output of your code.</p>
+</li>
+<li><p>Change the first variable&apos;s value to the string &quot;5&quot; and the second variable&apos;s value to the number 5.</p>
+<p> <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>The variable value is the portion to the right of the = sign.</p>
+</div></div></p>
+</li>
+<li><p>Change the third variable to compare the two variables using ==. Make note of the comparison value.</p>
+</li>
+<li><p>Change the third variable to compare the first two variables using ===.  How is that different from the == comparison in the previous step?</p>
+<p> <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>== is only comparing the values to each other and does not care about the data type so a string &quot;5&quot; is the same as the number 5.  === compares both the value and the data type so a string &quot;5&quot; is not the same as the number 5.</p>
+</div></div></p>
+</li>
+<li><p>Try out additional variable values, different mathematic operators ( +, -, *, / ) or different comparisons ( !=, !==, ==, ===, &lt;, &gt; ).  </p>
+</li>
+</ol>
+<h4 id="calling-a-function-with-a-parameter">Calling a function with a parameter</h4>
+<ol>
+<li><p>In Google Chrome, navigate to <a href="https://codepen.io/CodingCocktailsKC/pen/EmBPYM" target="_blank">https://codepen.io/CodingCocktailsKC/pen/EmBPYM</a></p>
+</li>
+<li><p>In the JS editor, look for the Mad Libs items to replace. Remember these are the noun or verb text surrounded by angle brackets: <strong>&lt; noun_2&gt;</strong>.</p>
+<p> <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>Make sure to replace all instances of a variable with the same noun or verb!</p>
+<p>Make sure to remove the angle brackets &lt;&gt; around the text so your code will work!</p>
+</div></div></p>
+</li>
+<li><p>The lower portion of the pen should display the output of your code.</p>
+</li>
+<li><p>Try changing the variable value or the return value of the function.</p>
+</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Overview">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="project/part_1_starting_with_common_interactions.html" class="navigation navigation-next " aria-label="Next page: Part 2:  Starting with common interactions">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Part 1: Intruducing JavaScript & jQuery","level":"1.2","depth":1,"next":{"title":"Part 2:  Starting with common interactions","level":"1.3","depth":1,"path":"project/part_1_starting_with_common_interactions.md","ref":"project/part_1_starting_with_common_interactions.md","articles":[]},"previous":{"title":"Overview","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["copy-code-button","custom-favicon","hints","sectionx","livereload"],"pluginsConfig":{"livereload":{},"search":{},"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"favicon":"images/favicon.ico","custom-favicon":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part_1_introduction.md","mtime":"2017-05-30T02:39:00.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-30T02:39:13.151Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
