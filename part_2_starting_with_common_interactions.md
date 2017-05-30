@@ -1,25 +1,36 @@
 ### Part 2:  Starting with common interactions
 
-1.  Fork the DrinkOrderApp repository ([bit.ly/CnCDrinkApp](https://www.google.com/url?q=http://bit.ly/CnCDrinkApp&sa=D&ust=1478465001097000&usg=AFQjCNH9ExQF2ZKCvBQ0aNG3T7FYe9xDwQ)) to your own account.
+#### Setup
 
-1.  Clone the repository to your computer using Git Bash (Windows)  or iTerm2 (Macs) and checkout the **jquery-master branch** to have a clean starting point for tonight’s project.
+1.  In your CodingAndCocktails folder in your home directory, create a JavaScript folder.
 
-1.  Open the **index.html** file in Google Chrome and try clicking the buttons.  Not very exciting yet, is it?
+2. Download the project starting point from https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/archive/jquery-master.zip and put it in that JavaScript folder.
 
-1.  Open the **DrinkOrderApp folder** in Sublime Text.
- **Hint**: Check out our *#codingandcocktails* Slack channel at [kcwit.slack.com](https://www.google.com/url?q=http://kcwit.slack.com&sa=D&ust=1478465001101000&usg=AFQjCNFMSx87xEDMJXGjwC-ldhqmr9aXXg) and search for &quot;Coding &amp; Cocktails tip of the week&quot; (quotes included) for a reminder on how to open the whole project folder for easy access to all of your project files as you work.
+3. Unzip it. 
+# TODO
 
-1.  First we need to connect our HTML and our JavaScript.  This is similar to connecting our CSS files with `<link>` tags as we discussed in the HTML &amp; CSS session as well as in the CSS Compiler session but with a different HTML tag.
+3. In Atom, open the DrinkOrderApp folder by going to the File menu and choosing **Add Project Folder**. Navigate to the unzipped DrinkOrderApp folder that you created and click OK.
+
+4.  In Google Chrome, open the **index.html** file and try clicking the buttons.  Not very exciting yet, is it?
+
+#### Connecting HTML & JavaScript
+
+1. Connect the HTML & the JavaScript files.
 
   1.  Add a `<script>` tag for the jQuery library ([jquery-1.12.3.min.js](https://www.google.com/url?q=https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/blob/jquery-master/assets/lib/jquery-1.12.3.min.js&sa=D&ust=1478465001104000&usg=AFQjCNGu8qGW-WYNlBHwzlzR9ABIcGKm3A) found in the **assets/lib** folder)  in the `<head>` section of the **index.html** page.
+  # TODO: Update jQuery version
 
       `<script src="assets/lib/jquery-1.12.3.min.js"></script>`
 
-   1.  Add a `<script>` tag with a `src` attribute  for your script file (**my-scripts.js** found in the **assets/scripts** folder) in the `<head>` section of the **index.html** page  - Remember, order matters! Hint: [bit.ly/scriptElement](https://www.google.com/url?q=http://bit.ly/scriptElement&sa=D&ust=1478465001107000&usg=AFQjCNGGBgb6RmAH_zRr5ahiZPKi8HOWeg) or [bit.ly/StartjQuery](https://www.google.com/url?q=http://bit.ly/StartjQuery&sa=D&ust=1478465001108000&usg=AFQjCNGrFFQhedkvMZmSRc6-7458mBCZ4A)
+   1.  Add a `<script>` tag with a `src` attribute for your script file (_my-scripts.js_ found in the _assets/scripts_ folder) in the `<head>` section of the _index.html_ page  - Remember, order matters! Hint: [bit.ly/scriptElement](https://www.google.com/url?q=http://bit.ly/scriptElement&sa=D&ust=1478465001107000&usg=AFQjCNGGBgb6RmAH_zRr5ahiZPKi8HOWeg) or [bit.ly/StartjQuery](https://www.google.com/url?q=http://bit.ly/StartjQuery&sa=D&ust=1478465001108000&usg=AFQjCNGrFFQhedkvMZmSRc6-7458mBCZ4A)
 
-1.  Open **my-scripts.js** in Sublime Text from the assets/scripts folder. This is where you’ll be adding your jQuery code.
 
-1.  First we need to make sure we wait until our HTML document is ready before we run anything on it.  Remember we do this using `$(document).ready();`  Hint: [bit.ly/docReady](https://www.google.com/url?q=http://bit.ly/docReady&sa=D&ust=1478465001110000&usg=AFQjCNFPlR8KVar8yLLamN-w76KLh-3Fxw) Don’t forget that we need a function in there so we can actually run our code!
+#### Adding Interaction
+1.  Open the _my-scripts.js_ file in Atom from the assets/scripts folder. This is where jQuery code goes.
+
+1.  First make sure the HTML document is ready before it tries to run anything.  
+
+Remember we do this using `$(document).ready();`  Hint: [bit.ly/docReady](https://www.google.com/url?q=http://bit.ly/docReady&sa=D&ust=1478465001110000&usg=AFQjCNFPlR8KVar8yLLamN-w76KLh-3Fxw) Don’t forget that we need a function in there so we can actually run our code!
 
 1.  We’ll want to be able to see our menu so we need to make the “Show Menu” button function properly.  When we click the button we want to display the `#menu` div.
 
