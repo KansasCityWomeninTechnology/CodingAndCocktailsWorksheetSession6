@@ -3,15 +3,14 @@
 <hr>
 
 ###Overview
-Practice using JavaScript and jQuery to make our web applications respond to user interaction.  
+Practice using some of the basics of JavaScript and jQuery to make web applications respond to user interaction.  
 
 ###Project
-Part 1 will introduce some common concepts.
-#TODO: Describe these better.
+Part 1 will practice JavaScript basic concepts in CodePen.
 
-Part 2 will include changing colors, hiding & showing elements and more.
+Part 2 will include changing the DOM with jQuery including color changes, hiding & showing elements and more in your own Development Environment on your computer.
 
-Part 3 will add in a content slider.  This is very useful to scroll through pictures, text, videos or any other html items on a website.  Part 3 uses a library called bxSlider.
+Part 3 will add in a content slider to the code from Part 2.  This is very useful to scroll through pictures, text, videos or any other html items on a website.  Part 3 uses a library called bxSlider.
 
 ### Helpful Keyboard Shortcuts
 |Command|Mac Key Combination|Windows Key Combination|
