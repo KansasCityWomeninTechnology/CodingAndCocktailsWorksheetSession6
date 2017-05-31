@@ -31,19 +31,25 @@ If you missed the HTML session and aren't sure what an HTML tag is, grab a mento
    {% hint style='tip' %}
 Order of the script tags you add matters! Script tags are executed in the order that they appear in your HTML code so because our _my_scripts.js_ file will depend on jQuery, make sure the `<script>` tag for _my_scripts.js_ comes after the `<script>` tag for the jQuery library.
 
-For a refresher on Script tags check out bit.ly/scriptElement
+For a refresher on `<script>` tags check out bit.ly/scriptElement.
 
-For further reading on using jQuery in a project navigate to bit.ly/StartjQuery
+For further reading on using jQuery in a project navigate to bit.ly/StartjQuery.
     {% endhint %}
 
 #### Adding Interaction
-1.  Open the _my-scripts.js_ file in Atom from the assets/scripts folder. This is where jQuery code goes.
+1.  In Atom, open the _my-scripts.js_ file from the _assets/scripts_ directory. This is where jQuery code will be added.
 
-1.  First make sure the HTML document is ready before it tries to run anything.  
+1.  First, the HTML document must be ready before it can attempt to run anything.  
 
-Remember we do this using `$(document).ready();`  Hint: [bit.ly/docReady](https://www.google.com/url?q=http://bit.ly/docReady&sa=D&ust=1478465001110000&usg=AFQjCNFPlR8KVar8yLLamN-w76KLh-3Fxw) Don’t forget that we need a function in there so we can actually run our code!
+    In _my-scripts.js_ type `$(document).ready();` 
+    
+    {% hint style='tip' %}
+For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http://bit.ly/docReady) in Google Chrome.
+    {% endhint %}
 
-1.  We’ll want to be able to see our menu so we need to make the “Show Menu” button function properly.  When we click the button we want to display the `#menu` div.
+ 
+
+Hint: [bit.ly/docReady](https://www.google.com/url?q=http://bit.ly/docReady&sa=D&ust=1478465001110000&usg=AFQjCNFPlR8KVar8yLLamN-w76KLh-3Fxw) Don’t forget that we need a function in there so we can actually run our code%1.  We’ll want to be able to see our menu so we need to make the “Show Menu” button function properly.  When we click the button we want to display the `#menu` div.
 
   1.  First we have to capture the event inside your `$(document).ready(function () { ... });` code in **my-scripts.js**
 
