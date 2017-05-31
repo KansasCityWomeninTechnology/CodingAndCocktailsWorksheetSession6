@@ -39,30 +39,43 @@ For further reading on using jQuery in a project navigate to bit.ly/StartjQuery.
 #### Adding Interaction
 1.  In Atom, open the _my-scripts.js_ file from the _assets/scripts_ directory. This is where jQuery code will be added.
 
-1.  First, the HTML document must be ready before it can attempt to run anything.  
+2.  First, the HTML document must be ready before it can attempt to run anything.  
 
-    In _my-scripts.js_ type `$(document).ready();` 
+    1. In _my-scripts.js_, type `$(document).ready(function() {});` 
     
-    {% hint style='tip' %}
+    {% hint style='info' %}
 For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http://bit.ly/docReady) in Google Chrome.
     {% endhint %}
 
- 
+3. Add interaction to the “Show Menu” button.  When the button is clicked, the `<div>` tag with the id of `#menu` should be displayed.
 
-Hint: [bit.ly/docReady](https://www.google.com/url?q=http://bit.ly/docReady&sa=D&ust=1478465001110000&usg=AFQjCNFPlR8KVar8yLLamN-w76KLh-3Fxw) Don’t forget that we need a function in there so we can actually run our code%1.  We’ll want to be able to see our menu so we need to make the “Show Menu” button function properly.  When we click the button we want to display the `#menu` div.
+  1.  Capture the click event inside the `$(document).ready(function () { });` code in _my-scripts.js_.
 
-  1.  First we have to capture the event inside your `$(document).ready(function () { ... });` code in **my-scripts.js**
+      1.  In _index.html_ find the id of the "Show Menu" button.
+      
+      2.  In _my_scripts.js_, place your cursor between the curly braces of the function {} and press enter.  This will is the of the function where the code to run when the function is called gets added.  Add a click event handler to the button. 
+      
+    {% hint style='tip' %}
+`$(“#my-id”).click();`
+    {% endhint %}
 
-      1.  Select your button (check out index.html to find the button’s id to select)
-      2.  Add the click event handler to the button.
-   Hint: `$(“#my-id”).click();`
+  2.  In response to the click event, add an action to display the menu.
 
-  1.  Next we have to add our action:
+      1.  Inside the parentheses of the click event handler, add a function to run the action.
+      
+    {% hint style='tip' %}
+`$(“#my-id”).click(function () { });`
+    {% endhint %}
 
-      1.  Inside of the click event handler we need to add the function to run the action we’re going to do.  This is similar to how we created the function to run when the document is ready. Hint: `$(“#my-id”).click(function () { … });`
+      2.  In the body of that function, select the element you want to act on, in this case the #menu div.
+      
+      3.  Add a jQuery action to show that HTML div.
+      
+    {% hint style='tip' %}
+`$("#my-id").show();`
+    {% endhint %}
 
-      1.  Inside of that function, select the element you want to act on, in this case the #menu div.
-      2.  Add a jQuery action to show that HTML div. **Hint:** `$("#my-id").show();`
+# TODO: Start Here
 
 1.  Refresh the open index.html in Google Chrome and try clicking the Show button.  It should display a menu when you click on it.
 
