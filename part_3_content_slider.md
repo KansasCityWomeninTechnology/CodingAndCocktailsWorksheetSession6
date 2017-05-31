@@ -1,4 +1,4 @@
-### Part 3:  Content Slider
+### \#\#\# Part 3:  Content Slider
 
 Next we’re going to add in a content slider on our page.  This is very useful to scroll through pictures, text, videos or any other html items on a website.  We’re also going to utilize a library for this called bxSlider.
 
@@ -18,3 +18,4 @@ Next we’re going to add in a content slider on our page.  This is very useful 
    3. Check your slider against the answer key here: [bit.ly/jQFinal](http://bit.ly/jQFinal)
 
 **Congratulations!  You created an interactive website!**
+
