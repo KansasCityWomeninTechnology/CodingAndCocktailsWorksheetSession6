@@ -1,10 +1,10 @@
-### Part 2:  Starting with common interactions
+### Part 2: Common Interactions with jQuery
 
 #### Setup
 
-1.  In your CodingAndCocktails folder in your home directory, create a JavaScript folder.
+1.  In Git Bash or iTerm2, type `cd ~/CodingAndCocktails` to make sure you're in your CodingAndCocktails directory that was created during the setup of The Tools.
 
-2. Download the project starting point from https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/archive/jquery-master.zip and put it in that JavaScript folder. 
+2. In Google Chrome, navigate to https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/archive/jquery-master.zip to download the project starting point.
 
 3. Unzip it. 
 
@@ -12,23 +12,21 @@
 
 3. In Atom, open the DrinkOrderApp folder by going to the File menu and choosing **Add Project Folder**. Navigate to the unzipped DrinkOrderApp folder that you created and click OK.
 
-4.  In Google Chrome, open the **index.html** file and try clicking the buttons.  Not very exciting yet, is it?
+4.  In Google Chrome, open the _index.html_ file and try clicking the buttons.  Not very exciting yet, is it?
  
 #### Connecting HTML & JavaScript
 
 1. Connect the HTML & the JavaScript files.
 
-  1.  Add a &lt;script&gt; tag for the jQuery library \(\[jquery-1.12.3.min.js\]\(https://www.google.com/url?q=https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/blob/jquery-master/assets/lib/jquery-1.12.3.min.js&sa=D&ust=1478465001104000&usg=AFQjCNGu8qGW-WYNlBHwzlzR9ABIcGKm3A\) found in the \*\*assets/lib\*\* folder\)  in the \`&lt;head&gt;\` section of the \*\*index.html\*\* page.
-
-  \# TODO: Update jQuery version
 
 
+  1.  In Atom, open the _index.html_ file.  
+  
+  2. In between the `<head>` and `</head>` tags in the _index.html_ file, add a `<script>` tag for the jQuery library (jquery-3.2.1.min.js found in the _assets/lib_ directory of the project). The script tag should look like this: `<script src="assets/lib/jquery-3.2.1.min.js"></script>`
 
-      \`&lt;script src="assets/lib/jquery-1.12.3.min.js"&gt;&lt;/script&gt;\`
-
-
-
-   1.  Add a \`&lt;script&gt;\` tag with a \`src\` attribute for your script file \(\_my-scripts.js\_ found in the \_assets/scripts\_ folder\) in the \`&lt;head&gt;\` section of the \_index.html\_ page  - Remember, order matters! Hint: \[bit.ly/scriptElement\]\(https://www.google.com/url?q=http://bit.ly/scriptElement&sa=D&ust=1478465001107000&usg=AFQjCNGGBgb6RmAH\_zRr5ahiZPKi8HOWeg\) or \[bit.ly/StartjQuery\]\(https://www.google.com/url?q=http://bit.ly/StartjQuery&sa=D&ust=1478465001108000&usg=AFQjCNGrFFQhedkvMZmSRc6-7458mBCZ4A\)
+   3. Add a `<script>` tag with a `src` attribute for your script file (located at assets/scripts/my-scripts.js) in between the `<head>` and `</head>` tags.  section of the index.html page - Remember, order matters! Hint: bit.ly/scriptElement or bit.ly/StartjQuery  
+   
+   Add a `<script>` tag with a `src` attribute for your script file \(\_my-scripts.js\_ found in the \_assets/scripts\_ folder\) in the \`&lt;head&gt;\` section of the \_index.html\_ page  - Remember, order matters! Hint: \[bit.ly/scriptElement\]\(https://www.google.com/url?q=http://bit.ly/scriptElement&sa=D&ust=1478465001107000&usg=AFQjCNGGBgb6RmAH\_zRr5ahiZPKi8HOWeg\) or \[bit.ly/StartjQuery\]\(https://www.google.com/url?q=http://bit.ly/StartjQuery&sa=D&ust=1478465001108000&usg=AFQjCNGrFFQhedkvMZmSRc6-7458mBCZ4A\)
 
 
 
