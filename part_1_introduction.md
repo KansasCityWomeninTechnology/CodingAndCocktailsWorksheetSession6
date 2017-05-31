@@ -1,6 +1,6 @@
 ### Part 1: Introducing JavaScript
 
-In part 1 you'll start practicing the JavaScript concepts covered in the presentation.  This will be done Mad Libs style to start.  Items to be replaced will look like this: **< noun_1>**.  You'll replace everything including the angle brackets so **< noun_1>** might become **drink**.
+In part 1 you'll start practicing some JavaScript basics covered in the presentation.  This will be done Mad Libs style in an online tool called CodePen.  Items to be replaced will look like this: **< noun_1>**.  You'll replace everything including the angle brackets so **< noun_1>** might become **drink**.
 
 {% hint style='tip' %}
 A noun is a person, place or thing such as "pen" or "drink."
@@ -9,7 +9,7 @@ A verb is a word used to describe an action such as "make" or "become."
 {% endhint %}
 
 #### Variables, Booleans, Operators and Comparison
-1. In Google Chrome, navigate to https://codepen.io/CodingCocktailsKC/pen/EmBPYM
+1. In Google Chrome, navigate to https://codepen.io/CodingCocktailsKC/pen/BRgQrE 
 
 2. In the JS editor, look for the Mad Libs items to replace. Remember these are the noun or verb text surrounded by angle brackets: **< noun_2>**.
 
