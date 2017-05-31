@@ -8,6 +8,14 @@ A noun is a person, place or thing such as "pen" or "drink."
 A verb is a word used to describe an action such as "make" or "become."
 {% endhint %}
 
+#### First things first
+
+### 1. <a href="slack://channel?team=T06BZHS4U&id=C0BGBKGG6">Open Slack</a>
+
+If you have a tip that helped you with a step on the worksheet, you can easily share it with the group in Slack. Or if there are any issues with the worksheet [we make typos or there's an update to a tool that we didn't catch before the session], we may post updates in Slack. Plus, after class is over, Slack becomes a tool for you to gain access to mentors as you go through the homework, or any other questions that arise.
+
+
+
 #### Variables, Booleans, Operators and Comparison
 1. In Google Chrome, navigate to https://codepen.io/CodingCocktailsKC/pen/BRgQrE 
 
