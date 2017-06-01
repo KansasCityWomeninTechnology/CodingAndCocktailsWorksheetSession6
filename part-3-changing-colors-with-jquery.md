@@ -1,18 +1,16 @@
-1.
+### Part 3: Changing Colors with jQuery
 
-Next we’re going to practice another common interaction on web pages: changing element styling triggered by an event. When the checkbox next to a drink is selected, make the background of the drink label change colors.
+Next we’ll practice another common interaction on web pages: changing HTML element styling triggered by an event. When the checkbox next to a drink is selected, make the background of the drink label change colors.
 
+1. First, capture the event:
+
+  1. Look in the _index.html_ file to find the check box elements. 
   
-
-
-1.
-
-First we have to capture the event:
-
+  We’ll need to utilize CSS attribute selectors this time. These look like `cssElement[“attribute=value”]` 
   
-
-
-1. Select your check box. Look at the HTML to see what this structure like. We’ll need to utilize CSS attribute selectors this time. These look like \`cssElement\[“attribute=value”\]\` \*\*Hint:\*\* \[bit.ly/AttrSel\]\(http://bit.ly/AttrSel\) Don’t know what an attribute is? Check this out: \[http://bit.ly/Attribs\]\(http://bit.ly/Attribs\)
+  Hint:[bit.ly/AttrSel](http://bit.ly/AttrSel) 
+  
+  Don’t know what an attribute is? Check this out: [http://bit.ly/Attribs](http://bit.ly/Attribs)
 
 2. Add the click event handler like we did in step 8.a.ii. Hint: \[bit.ly/CnCClick\]\(http://bit.ly/CnCClick\)
 

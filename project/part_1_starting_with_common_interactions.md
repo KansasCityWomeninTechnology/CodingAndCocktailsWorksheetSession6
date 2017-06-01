@@ -1,4 +1,4 @@
-### Part 2: Common Interactions with jQuery
+### Part 2: Showing and Hiding Content with jQuery
 
 #### Setup
 
