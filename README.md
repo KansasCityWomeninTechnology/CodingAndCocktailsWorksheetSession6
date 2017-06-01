@@ -1,4 +1,4 @@
-#Coding & Cocktails Session 6:
+# Coding & Cocktails Session 6:
 ## Programming Concepts 101: Intro to jQuery & JavaScript {#intro-to-javascript-using-jquery}
 <hr>
 

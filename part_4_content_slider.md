@@ -1,4 +1,4 @@
-### Part 3:  Content Slider
+### Part 4:  Content Slider
 
 Next you'll add in a content slider to the page.  This is very useful to scroll through pictures, text, videos or any other html items on a website.  This project will utilize a library called bxSlider.
 

@@ -32,4 +32,4 @@ Next we’ll practice another common interaction on web pages: changing HTML ele
 
     Info: Another other way to do this would be to use the `.css()` method.  Since we needed to toggle between having the styling and not, the toggleClass method fits better for our use case. [bit.ly/CnCCSS](http://bit.ly/CnCCSS).  This might be too much information.
 
-    You get a gold star!
+You get a gold star!
