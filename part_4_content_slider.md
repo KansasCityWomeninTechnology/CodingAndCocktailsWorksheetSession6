@@ -2,7 +2,9 @@
 
 Next you'll add in a content slider to the page.  This is very useful to scroll through pictures, text, videos or any other html items on a website.  This project will utilize a library called bxSlider.
 
-1. In the _index.html_ file, on line 26, find the HEADER section.  On line 32 you'll find a commented out unordered list HTML element `<ul>` with a class of "bxslider" and four list items `<li>`.  The bxSlider library is already included in the project for you as well as the necessary HTML markup.  You’re going to add the interactivity!
+1. In the _index.html_ file, on line 26, find the HEADER section.  On line 32 you'll find a commented out unordered list HTML element `<ul>` with a class of "bxslider" and four list items `<li>`.  Uncomment the HTML markup. The bxSlider library is already included in the project for you as well as the necessary HTML markup.  You’re going to add the interactivity!
+
+   ![](/images/uncomment.gif)
 
 2. First, connect the bxSlider JavaScript file and CSS styling to the _index.html_ file so everything will work!  The JavaScript file (_jquery.bxslider.min.js_) and the CSS file (_jquery.bxslider.min.css_) are located in the _assets/lib/jquery.bxslider_ directory.  
 
