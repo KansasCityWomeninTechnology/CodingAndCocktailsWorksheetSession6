@@ -64,7 +64,7 @@ For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http
 
       1.  In the _index.html_ file, find the id of the "Show Menu" button.
 
-      2.  In _my_scripts.js_, place your cursor between the curly braces of the function {} and press enter.  This will is the of the function where the code to run when the function is called gets added.  Add a click event handler to the button.
+      2.  In _my_scripts.js_, place your cursor between the curly braces of the function {} and press enter.  This is the body of the function where the code to run when the function is called gets added.  Add a click event handler to the button.
 
     {% hint style='tip' %}
 `$(“#my-id”).click();`
