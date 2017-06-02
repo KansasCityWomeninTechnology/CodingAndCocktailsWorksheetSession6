@@ -48,8 +48,6 @@ There is already a CSS `highlight` class created for you to toggle.  You'll find
     
 3. Save your _my-scripts.js_ file.
 
-4. In Google Chrome, refresh your page, show the menu and select a drink.
+4. In Google Chrome, refresh your page, show the menu and select a drink. The background of the selected drink should now turn green!
 
-
-
-You get a gold star!
+**Way to go rockstar!**
