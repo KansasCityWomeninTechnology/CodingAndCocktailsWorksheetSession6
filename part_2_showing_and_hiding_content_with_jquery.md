@@ -93,10 +93,6 @@ For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http
 #### Hide the Menu
 Now that you can view the menu, make sure you can hide it when you don’t want to see it. Hide the `<div>` HTML element with the id of`#menu` when the "Hide Menu" button is clicked with code in _my-scripts.js_.  This will be very similar to what we just did with the "Show Menu" button but a different action on the `<div>`.
 
-{% hint style='info' %}
-Since this code is similar to the previous section, the instructions will be a little less detailed for you to try it with a little less guidance. This is hard stuff though so if you're unsure, re-read the section about showing the menu to see if you can figure out the changes to make hiding the menu work.  If you're still stumped, grab one of our awesome mentors to talk through it with you! You've got this!
-{% endhint %}
-
 1.  Capture the click event.
 
     1.  Select the "Hide Menu" button.
