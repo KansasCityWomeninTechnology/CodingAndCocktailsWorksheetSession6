@@ -5,14 +5,20 @@ Next we’ll practice another common interaction on web pages: changing HTML ele
 1. First, capture the event. Noticing a pattern? Capture the event, add an action.
 
   1. Look in the _index.html_ file to find the check box elements.
+  
+    ![](/images/checkbox.png)
 
-  We’ll need to utilize attribute selectors this time. These look like `Element[“attribute=value”]`
+  2.  Select the element.
+  
+  This time we’ll need to utilize attribute selectors because we only want to select the input values of type "checkbox". Attribute selectors look like `element[“attribute=value”]`
+  
+  
 
   Hint:[bit.ly/AttrSel](http://bit.ly/AttrSel)
 
   Don’t know what an attribute is? Check this out: [http://bit.ly/Attribs](http://bit.ly/Attribs)
 
-  2.  Select the element.
+
 
   3. Add the click event handler.
 
