@@ -4,4 +4,6 @@ The more you practice, the more comfortable you’ll feel!  Work through the fol
 
 1.  Codecademy learn jQuery: [bit.ly/CnCjQHmwk](http://bit.ly/CnCjQHmwk)
 
+2. Codecademy learn JavaScript: [codecademy.com/learn/learn-javascript](https://www.codecademy.com/learn/learn-javascript)
+
 [![](/images/slack.png)](http://kcwit.slack.com)
