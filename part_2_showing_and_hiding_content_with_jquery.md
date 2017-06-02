@@ -6,13 +6,18 @@
 
 2. In Google Chrome, navigate to https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/archive/jquery-master.zip to download the project starting point.
 
-3. Unzip it.
+3. Unzip the downloaded file.
 
-# TODO - Unzip Directions
-
-3. In Atom, open the DrinkOrderApp folder by going to the File menu and choosing **Add Project Folder**. Navigate to the unzipped DrinkOrderApp folder that you created and click OK.
+3. In Atom, open the DrinkOrderApp folder by opening the **File** menu and choosing **Add Project Folder**. Navigate to the unzipped DrinkOrderApp folder that you created and click OK.
 
 4.  In Google Chrome, open the _index.html_ file and try clicking the buttons.  Not very exciting yet, is it?
+
+    {% hint style='tip' %}
+You can open the file in Google Chrome in two ways:
+
+ 1. Open Google Chrome then choose **Open File...** from the **File** menu
+ 2. Find the file in Finder (macs) or Windows Explorer (windows machines), right click on it and choose to open with Google Chrome.
+    {% endhint %}
 
 #### Connecting HTML & JavaScript
 
@@ -22,9 +27,11 @@
 If you missed the HTML session and aren't sure what an HTML tag is, grab a mentor to give you a quick overview and help catch you up!
     {% endhint %}
 
-  1.  In Atom, open the _index.html_ file.  
+  1.  In Atom, open the _index.html_ file by double clicking on it.  
 
-  2. Just above the `</head>` tag in the _index.html_ file, add a `<script>` tag for the jQuery library (jquery-3.2.1.min.js found in the _assets/lib_ directory of the project). The script tag should look like this: `<script src="assets/lib/jquery-3.2.1.min.js"></script>`
+  2. Just above the closing `</head>` tag in the _index.html_ file, add a `<script>` tag for the jQuery library (jquery-3.2.1.min.js found in the _assets/lib_ directory of the project). The script tag should look like this: `<script src="assets/lib/jquery-3.2.1.min.js"></script>`
+  
+      ![](/images/addScript.gif)
 
    3. On a separate line just below the jQuery script tag you just created and just above the `</head>` tag, add a `<script>` tag with a `src` attribute for the JavaScript file that you'll be changing (located at assets/scripts/my-scripts.js).
 
