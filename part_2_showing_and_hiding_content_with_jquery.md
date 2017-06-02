@@ -88,7 +88,7 @@ For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http
     
 4. Save your _my-scripts.js_ file.
 
-4. In Google Chrome, refresh the open _index.html_ file and try clicking the "Show Menu" button.  It should now display the menu when you click on it!
+5. In Google Chrome, refresh the open _index.html_ file and try clicking the "Show Menu" button.  It should now display the menu when you click on it!
 
 #### Hide the Menu
 Now that you can view the menu, make sure you can hide it when you don’t want to see it. Hide the `<div>` HTML element with the id of`#menu` when the "Hide Menu" button is clicked with code in _my-scripts.js_.  This will be very similar to what we just did with the "Show Menu" button but a different action on the `<div>`.
@@ -109,7 +109,7 @@ Now that you can view the menu, make sure you can hide it when you don’t want 
 
 2.  Add the action.
 
-    1.  In between the parentheses of the click event handler, add the function: `function()  {}`.
+    1.  In between the parentheses of the click event handler, add the function like you saw in the gif above: `function()  {}`.
 
     2.  In the body of that function (that means in between the curly braces), select the element you want to act on, in this case the `#menu` div.
 
@@ -119,12 +119,16 @@ Now that you can view the menu, make sure you can hide it when you don’t want 
     This will take you to the jQuery documentation on id selectors.
     {% endhint %}
 
-    3.  Add a jQuery action to show that HTML div.
+    3.  Add a jQuery action to hide that HTML div.
 
     {% hint style='tip' %}
     Hint: [bit.ly/CnCHide](http://bit.ly/CnCHide)
 
     This will take you to the jQuery documentation on the hide method.
     {% endhint %}
+    
+    4. Save your _my-scripts.js_ file.
+
+    5. In Google Chrome, refresh the open _index.html_ file and try clicking the "Show Menu" button and then the "Hide Menu" button.  It should now show and hide the menu according to the button that you click!
 
 **You’ve added your first interactivity to your website! Celebrate with a toast with your neighbor!**
