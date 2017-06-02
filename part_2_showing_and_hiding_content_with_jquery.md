@@ -64,10 +64,10 @@ For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http
 
       1.  In the _index.html_ file, find the id of the "Show Menu" button.
 
-      2.  In _my_scripts.js_, place your cursor between the curly braces of the function {} and press enter.  This is the body of the function where the code to run when the function is called gets added.  Add a click event handler to the button.
+      2.  In _my_scripts.js_, place your cursor between the curly braces of the function {} and press enter.  This is the body of the function where the code that runs when the function is called lives.  Add a click event handler to the button.
 
     {% hint style='tip' %}
-`$(“#my-id”).click();`
+`$("#my-id").click();`
     {% endhint %}
 
   2.  In response to the click event, add an action to display the menu.
@@ -75,7 +75,7 @@ For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http
       1.  Inside the parentheses of the click event handler, add a function to run the action.
 
     {% hint style='tip' %}
-`$(“#my-id”).click(function () { });`
+`$("#my-id").click(function () {});`
     {% endhint %}
 
       2.  In the body of that function, select the element you want to act on, in this case the #menu div.
@@ -85,6 +85,8 @@ For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http
     {% hint style='tip' %}
 `$("#my-id").show();`
     {% endhint %}
+    
+4. Save your _my-scripts.js_ file.
 
 4. In Google Chrome, refresh the open _index.html_ file and try clicking the "Show Menu" button.  It should now display the menu when you click on it!
 
