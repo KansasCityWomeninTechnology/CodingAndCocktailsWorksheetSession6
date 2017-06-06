@@ -10,7 +10,7 @@ A verb is a word used to describe an action such as "make" or "become."
 
 #### First things first
 
-### <a href="slack://channel?team=T06BZHS4U&id=C0BGBKGG6">Open Slack</a>
+### <a href="https://kcwit.slack.com/messages/C0BGBKGG6/">Open Slack</a>
 
 If you have a tip that helped you with a step on the worksheet, you can easily share it with the group in Slack. Or if there are any issues with the worksheet [we make typos or there's an update to a tool that we didn't catch before the session], we may post updates in Slack. Plus, after class is over, Slack becomes a tool for you to gain access to mentors as you go through the homework, or any other questions that arise.
 
@@ -23,7 +23,7 @@ If you have a tip that helped you with a step on the worksheet, you can easily s
 
     ![](/images/replace.png)
 
-    {% hint style='tip' %}
+    {% hint style='danger' %}
 Make sure to replace all instances of a variable with the same noun!
 
 Make sure to remove the angle brackets <> around the text so your code will work!
@@ -33,7 +33,7 @@ Make sure to remove the angle brackets <> around the text so your code will work
 
     ![](/images/codepen-output.png)
 
-4. Try some other data types and comparisons! Change the first variable's value to the string "5" and the second variable's value to the number 5.
+4. Try some other data types and comparisons! Change the first variable's value to the string "5" by adding quotation marks around the 5.  Change second variable's value to the number 5 without quotation marks.
 
     {% hint style='tip' %}
 The variable value is the portion to the right of the = sign.
@@ -44,7 +44,9 @@ The variable value is the portion to the right of the = sign.
 6. Change the third variable to compare the first two variables using `===`.  How is the comparison output different from the == comparison in the previous step?
 
     {% hint style='info' %}
-`==` is only comparing the values to each other and does not care about the data type so a string "5" is the same as the number 5.  `===` compares both the value and the data type so a string "5" is not the same as the number 5.
+`==` only compares the value and does not care about the data type so a string "5" is the same as the number 5.  
+
+`===` compares both the value and the data type so a string "5" is not the same as the number 5.
     {% endhint %}
 
 7. Try out additional variable values, different mathematic operators ( +, -, *, / ) or different comparisons ( !=, !==, ==, ===, <, > ).  
