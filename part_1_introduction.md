@@ -39,9 +39,9 @@ Make sure to remove the angle brackets <> around the text so your code will work
 The variable value is the portion to the right of the = sign.
     {% endhint %}
 
-5. Change the third variable to compare the two variables using `==`. Make note of the comparison value in the output.
+5. Remove the `* 2` from line 6 then change the `>` to `==`. Make note of the comparison value in the output.
 
-6. Change the third variable to compare the first two variables using `===`.  How is the comparison output different from the == comparison in the previous step?
+6. After reviewing the comparison with `==`, change it to `===`.  How is the output different from the `==` comparison in the previous step?
 
     {% hint style='info' %}
 `==` only compares the value and does not care about the data type so a string "5" is the same as the number 5.  
