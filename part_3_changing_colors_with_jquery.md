@@ -13,7 +13,7 @@ Next we’ll practice another common interaction on web pages: changing HTML ele
     This time we’ll need to utilize attribute selectors because we only want to select the input elements of type "checkbox". Attribute selectors look like `element[“attribute=value”]`.
   
     {% hint style='tip' %}
-To read up on attribute selectors check out:[bit.ly/AttrSel](http://bit.ly/AttrSel)
+To read up on attribute selectors check out: [bit.ly/AttrSel](http://bit.ly/AttrSel)
 
 Don’t know what an attribute is? Check this out: [http://bit.ly/Attribs](http://bit.ly/Attribs)
     {% endhint %}
@@ -34,6 +34,8 @@ Watch your quotes here.  You may need to switch a set of double quotes (") to si
 
     {% hint style='tip' %}
 Because we only want the current element's styling to change instead of every checkbox element, first select `this` instead of `input[type="checkbox"]`.
+
+For information on what `this` refers to, read [bit.ly/jQueryThis](http://bit.ly/jQueryThis).
         
 How do we reference a parent element? Read up at [bit.ly/CnCparent](http://bit.ly/CnCparent).
     {% endhint %}
