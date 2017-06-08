@@ -16,7 +16,7 @@ If you were at the Version Control session in April and would like to practice y
 
 4. In iTerm2 or Git Bash type `git checkout jquery-master` to switch to the appropriate branch.
 
-4. Jump in on step 4 below.
+5. Jump in on step 4 below.
 
 Grab a mentor if you need some support as you do this!
 <!--endsec-->
@@ -59,7 +59,7 @@ If you missed the HTML session and aren't sure what an HTML tag is, grab a mento
 Ask a mentor to show you or remind you how to use Emmet to make your HTML writing faster!
     {% endhint %}
 
-3. On a separate line just below the jQuery script tag you just created and just above the `</head>` tag, add a `<script>` tag with a `src` attribute for the JavaScript file that you'll be changing (located at assets/scripts/my-scripts.js).
+4. On a separate line just below the jQuery script tag you just created and just above the `</head>` tag, add a `<script>` tag with a `src` attribute for the JavaScript file that you'll be changing (located at assets/scripts/my-scripts.js).
 
 {% hint style='tip' %}
 Order of the script tags you add matters! Script tags are executed in the order that they appear in your HTML code so because our _my_scripts.js_ file will depend on jQuery, make sure the `<script>` tag for _my_scripts.js_ comes after the `<script>` tag for the jQuery library.
