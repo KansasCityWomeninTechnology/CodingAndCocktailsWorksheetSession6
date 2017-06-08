@@ -125,15 +125,15 @@ This will take you to documentation on the jQuery click event handler.
 
 2. Add the action.
 
-1. In between the parentheses of the click event handler, add the function like you saw in the gif above: `function() {}`.
+    1. In between the parentheses of the click event handler, add the function like you saw in the gif above: `function() {}`.
 
-2. In the body of that function (that means in between the curly braces), select the element you want to act on, in this case the `#menu` div.
+    2. In the body of that function (that means in between the curly braces), select the element you want to act on, in this case the `#menu` div.
 
-{% hint style='tip' %}
+        {% hint style='tip' %}
 Hint: [bit.ly/CnCSelect](http://bit.ly/CnCSelect)
 
 This will take you to the jQuery documentation on id selectors.
-{% endhint %}
+    {% endhint %}
 
 3. Add a jQuery action to hide that HTML div.
 
