@@ -43,9 +43,9 @@ If you missed the HTML session and aren't sure what an HTML tag is, grab a mento
 
     ![](/images/addScript.gif)
 
-    {% hint style='tip' %}
+{% hint style='tip' %}
 Ask a mentor to show you or remind you how to use Emmet to make your HTML writing faster!
-    {% endhint %}
+{% endhint %}
 
 3. On a separate line just below the jQuery script tag you just created and just above the `</head>` tag, add a `<script>` tag with a `src` attribute for the JavaScript file that you'll be changing (located at assets/scripts/my-scripts.js).
 
