@@ -3,11 +3,11 @@
 
 #### Setup
 
-    {% hint style='info' %}
+{% hint style='info' %}
 If you don't want Version Control practice just start with step 1.
 
 If you were at the Version Control session in April and would like to practice your Git skills, you can fork the repository from [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master) to your own GitHub Account, then clone it down to your computer in your _CodingAndCocktails_ directory to modify. Check out the `jquery-master` branch and from there, continue with step 4. Grab a mentor if you need some support as you do this.
-    {% endhint %}
+{% endhint %}
 
 1. In Google Chrome, navigate to https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/archive/jquery-master.zip to download the project starting point.
 
