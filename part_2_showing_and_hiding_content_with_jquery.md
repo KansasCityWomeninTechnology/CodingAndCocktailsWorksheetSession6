@@ -2,10 +2,6 @@
 
 #### Setup
 
-{% hint style='info' %}
-If you were at the Version Control session in April and would like to practice your Git skills, feel free to fork the repository from [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master) to your own GitHub Account and clone it down to your computer in your _CodingAndCocktails_ directory to modify.  From there, continue with step 4. Grab a mentor if you need some support as you do this.
-{% endhint %}
-
 1.  In Google Chrome, navigate to https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/archive/jquery-master.zip to download the project starting point.
 
 2. Unzip the downloaded file and place the unzipped folder in your _CodingAndCocktails_ directory that was created during your tools setup.
@@ -35,10 +31,6 @@ If you were at the Version Control session in April and would like to practice y
 
     1. In _my-scripts.js_, type `$(document).ready(function() {});`
 
-    {% hint style='info' %}
-For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http://bit.ly/docReady) in Google Chrome.
-    {% endhint %}
-
 3. Add interaction to the “Show Menu” button.  When the button is clicked, the `<div>` tag with the id of `#menu` should be displayed.
 
   1.  Capture the click event inside the `$(document).ready(function () { });` code in _my-scripts.js_.
@@ -47,11 +39,6 @@ For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http
 
       2.  In _my_scripts.js_, place your cursor between the curly braces of the function {} and press enter.  This is the **body** of the function where the code that runs when the function is called lives.  Add a click event handler to the button.
 
-    {% hint style='tip' %}
-`$("#my-id").click();`
-
-Replace `#my-id` with the id you found in the _index.html_ file in the previous step.
-    {% endhint %}
 
   2.  In response to the click event, add an action to display the menu.
 
@@ -76,23 +63,12 @@ Now that you can view the menu, make sure you can hide it when you don’t want 
 
         ![](/images/selectHideMenu.gif)
 
-    {% hint style='tip' %}
-Hint: [bit.ly/CnCClick](http://bit.ly/CnCClick)
-
-This will take you to documentation on the jQuery click event handler.
-    {% endhint %}
-
 2.  Add the action.
 
     1.  In between the parentheses of the click event handler, add the function like you saw in the gif above: `function()  {}`.
 
     2.  In the body of that function (that means in between the curly braces), select the element you want to act on, in this case the `#menu` div.
 
-    {% hint style='tip' %}
-Hint: [bit.ly/CnCSelect](http://bit.ly/CnCSelect)
-
-This will take you to the jQuery documentation on id selectors.
-    {% endhint %}
 
     3.  Add a jQuery action to hide that HTML div.
 
