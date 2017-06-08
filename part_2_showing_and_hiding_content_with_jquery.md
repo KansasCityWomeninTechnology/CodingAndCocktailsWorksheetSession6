@@ -2,13 +2,13 @@
 
 #### Setup
 
-1.  In Git Bash or iTerm2, type `cd ~/CodingAndCocktails` to make sure you're in your CodingAndCocktails directory that was created during the setup of The Tools.
+1.  In Google Chrome, navigate to https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/archive/jquery-master.zip to download the project starting point.
 
-2. In Google Chrome, navigate to https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/archive/jquery-master.zip to download the project starting point.
+2. Unzip the downloaded file and place the unzipped folder in your _CodingAndCocktails_ directory that was created during your tools setup.
 
-3. Unzip the downloaded file.
+3. Rename the folder from _DrinkOrderApp-jquery-master_ to just _DrinkOrderApp_.
 
-3. In Atom, open the DrinkOrderApp folder by opening the **File** menu and choosing **Add Project Folder**. Navigate to the unzipped DrinkOrderApp folder that you created and click OK.
+3. In Atom, open the DrinkOrderApp folder by opening the **File** menu and choosing **Add Project Folder**. Navigate to the unzipped DrinkOrderApp folder and click OK.
 
 4.  In Google Chrome, open the _index.html_ file and try clicking the buttons.  Not very exciting yet, is it?
 
@@ -16,7 +16,8 @@
 You can open the file in Google Chrome in two ways:
 
  1. Open Google Chrome then choose **Open File...** from the **File** menu
- 2. Find the file in Finder (macs) or Windows Explorer (windows machines), right click on it and choose to open with Google Chrome.
+ 
+ 2. Find the file in Finder (macs) or Windows Explorer (windows), right click on it and choose to open with Google Chrome.
     {% endhint %}
 
 #### Connecting HTML & JavaScript
@@ -42,9 +43,9 @@ Ask a mentor to show you or remind you how to use Emmet to make your HTML writin
    {% hint style='tip' %}
 Order of the script tags you add matters! Script tags are executed in the order that they appear in your HTML code so because our _my_scripts.js_ file will depend on jQuery, make sure the `<script>` tag for _my_scripts.js_ comes after the `<script>` tag for the jQuery library.
 
-For a refresher on `<script>` tags check out bit.ly/scriptElement.
+For a refresher on `<script>` tags check out [bit.ly/scriptElement](http://bit.ly/scriptElement).
 
-For further reading on using jQuery in a project navigate to bit.ly/StartjQuery.
+For further reading on using jQuery in a project navigate to [bit.ly/StartjQuery](http://bit.ly/StartjQuery).
     {% endhint %}
 
 #### Show the Menu
@@ -67,7 +68,7 @@ For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http
       2.  In _my_scripts.js_, place your cursor between the curly braces of the function {} and press enter.  This is the body of the function where the code that runs when the function is called lives.  Add a click event handler to the button.
 
     {% hint style='tip' %}
-`$("#my-id").click();`
+`$("#my-id").click();` but replace `#my-id` with the id you found in the _index.html_ file in the previous step.
     {% endhint %}
 
   2.  In response to the click event, add an action to display the menu.
@@ -102,9 +103,9 @@ Now that you can view the menu, make sure you can hide it when you don’t want 
         ![](/images/selectHideMenu.gif)
     
     {% hint style='tip' %}
-    Hint: [bit.ly/CnCClick](http://bit.ly/CnCClick)
+Hint: [bit.ly/CnCClick](http://bit.ly/CnCClick)
 
-    This will take you to documentation on the jQuery click event handler.
+This will take you to documentation on the jQuery click event handler.
     {% endhint %}
 
 2.  Add the action.
@@ -114,17 +115,17 @@ Now that you can view the menu, make sure you can hide it when you don’t want 
     2.  In the body of that function (that means in between the curly braces), select the element you want to act on, in this case the `#menu` div.
 
     {% hint style='tip' %}
-    Hint: [bit.ly/CnCSelect](http://bit.ly/CnCSelect)
+Hint: [bit.ly/CnCSelect](http://bit.ly/CnCSelect)
 
-    This will take you to the jQuery documentation on id selectors.
+This will take you to the jQuery documentation on id selectors.
     {% endhint %}
 
     3.  Add a jQuery action to hide that HTML div.
 
     {% hint style='tip' %}
-    Hint: [bit.ly/CnCHide](http://bit.ly/CnCHide)
+Hint: [bit.ly/CnCHide](http://bit.ly/CnCHide)
 
-    This will take you to the jQuery documentation on the hide method.
+This will take you to the jQuery documentation on the hide method.
     {% endhint %}
     
     4. Save your _my-scripts.js_ file.
