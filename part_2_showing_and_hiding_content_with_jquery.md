@@ -2,6 +2,10 @@
 
 #### Setup
 
+{% hint style='info' %}
+If you were at the Version Control session in April and would like to practice your Git skills, feel free to fork the repository from [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master) to your own GitHub Account and clone it down to your computer to modify.  Grab a mentor if you need some support as you do this.
+{% endhint %}
+
 1.  In Google Chrome, navigate to https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/archive/jquery-master.zip to download the project starting point.
 
 2. Unzip the downloaded file and place the unzipped folder in your _CodingAndCocktails_ directory that was created during your tools setup.
