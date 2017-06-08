@@ -31,9 +31,9 @@ You can open the file in Google Chrome in three ways:
 
 1. Connect the HTML & the JavaScript files.
 
-{% hint style='tip' %}
+    {% hint style='tip' %}
 If you missed the HTML session and aren't sure what an HTML tag is, grab a mentor to give you a quick overview and help catch you up!
-{% endhint %}
+    {% endhint %}
 
 1. In Atom, open the _index.html_ file by double clicking on it.
 
