@@ -2,7 +2,7 @@
 
 Next you'll add in a content slider to the page.  This is very useful to scroll through pictures, text, videos or any other html items on a website.  This project will utilize a library called bxSlider.
 
-1. In the _index.html_ file, on line 26, find the HEADER section.  On line 32 you'll find a commented out unordered list HTML element `<ul>` with a class of "bxslider" and four list items `<li>`.  Uncomment the HTML markup. The bxSlider library is already included in the project for you as well as the necessary HTML markup.  You’re going to add the interactivity!
+1. In the _index.html_ file, on line 26, find the HEADER section.  On line 32 you'll find a commented out unordered list HTML element `<ul>` with a class of "bxslider" and four list items `<li>`.  Uncomment the HTML markup (see GIF below). The bxSlider library is already included in the project for you as well as the necessary HTML markup.  You’re going to add the interactivity!
 
    ![](/images/uncomment.gif)
 
@@ -16,7 +16,7 @@ See step 1 of the “How to Install” section on [bxslider.com](http://bxslider
 
 3. Look at the _index.html_ file and find the unordered list element `<ul>` with a `bxslider` class to identify the markup for the slider.
 
-4. Call the **bxSlider** on your content.  Hint: See step 3 of  the “How to Install” section on [bxslider.com](http://bxslider.com/)
+4. In Atom, in the _my-scripts.js_ file, call the **bxSlider** on your content.  Hint: See step 3 of  the “How to Install” section on [bxslider.com](http://bxslider.com/)
 
 5. Try making some modifications to how your slider works:
 
