@@ -20,9 +20,9 @@ If you were at the Version Control session in April and would like to practice y
 You can open the file in Google Chrome in three ways:
 
  1. Open Google Chrome then choose **Open File...** from the **File** menu
- 
+
  2. Find the file in Finder (macs) or Windows Explorer (windows), right click on it and choose to open with Google Chrome.
- 
+
  3. Drag the file directly on to the Google Chrome browser window.
     {% endhint %}
 
@@ -37,9 +37,9 @@ If you missed the HTML session and aren't sure what an HTML tag is, grab a mento
   1.  In Atom, open the _index.html_ file by double clicking on it.  
 
   2. Just above the closing `</head>` tag in the _index.html_ file, add a `<script>` tag for the jQuery library (jquery-3.2.1.min.js found in the _assets/lib_ directory of the project). The script tag should look like this: `<script src="assets/lib/jquery-3.2.1.min.js"></script>`
-  
+
       ![](/images/addScript.gif)
-      
+
     {% hint style='tip' %}
 Ask a mentor to show you or remind you how to use Emmet to make your HTML writing faster!
     {% endhint %}
@@ -74,7 +74,7 @@ For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http
       2.  In _my_scripts.js_, place your cursor between the curly braces of the function {} and press enter.  This is the **body** of the function where the code that runs when the function is called lives.  Add a click event handler to the button.
 
     {% hint style='tip' %}
-`$("#my-id").click();` 
+`$("#my-id").click();`
 
 Replace `#my-id` with the id you found in the _index.html_ file in the previous step.
     {% endhint %}
@@ -86,7 +86,7 @@ Replace `#my-id` with the id you found in the _index.html_ file in the previous 
       2.  In the body of that function, select the element you want to act on, in this case the #menu div.
 
       3.  Add a jQuery action to show that HTML div: `$("#another-id").show();`.
-    
+
 4. Save your _my-scripts.js_ file.
 
 5. In Google Chrome, refresh the open _index.html_ file and try clicking the "Show Menu" button.  It should now display the menu when you click on it!
@@ -99,9 +99,9 @@ Now that you can view the menu, make sure you can hide it when you don’t want 
     1.  Select the "Hide Menu" button.
 
     2.  Add the click event handler to the button.
-    
+
         ![](/images/selectHideMenu.gif)
-    
+
     {% hint style='tip' %}
 Hint: [bit.ly/CnCClick](http://bit.ly/CnCClick)
 
@@ -127,7 +127,7 @@ Hint: [bit.ly/CnCHide](http://bit.ly/CnCHide)
 
 This will take you to the jQuery documentation on the hide method.
     {% endhint %}
-    
+
     4. Save your _my-scripts.js_ file.
 
     5. In Google Chrome, refresh the open _index.html_ file and try clicking the "Show Menu" button and then the "Hide Menu" button.  It should now show and hide the menu according to the button that you click!
