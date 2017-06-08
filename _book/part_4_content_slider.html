@@ -1,0 +1,357 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Part 4: Content Slider · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="homework.html" />
+    
+    
+    <link rel="prev" href="part_3_changing_colors_with_jquery.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="part_1_introduction.html">
+            
+                <a href="part_1_introduction.html">
+            
+                    
+                    Part 1: Introducing JavaScript & jQuery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="part_2_showing_and_hiding_content_with_jquery.html">
+            
+                <a href="part_2_showing_and_hiding_content_with_jquery.html">
+            
+                    
+                    Part 2: Showing and Hiding Content with jQuery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="part_3_changing_colors_with_jquery.html">
+            
+                <a href="part_3_changing_colors_with_jquery.html">
+            
+                    
+                    Part 3: Changing Colors with jQuery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="part_4_content_slider.html">
+            
+                <a href="part_4_content_slider.html">
+            
+                    
+                    Part 4: Content Slider
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="homework.html">
+            
+                <a href="homework.html">
+            
+                    
+                    Homework
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="survey.html">
+            
+                <a href="survey.html">
+            
+                    
+                    Survey
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Part 4: Content Slider</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="part-4--content-slider">Part 4:  Content Slider</h3>
+<p>Next you&apos;ll add in a content slider to the page.  This is very useful to scroll through pictures, text, videos or any other html items on a website.  This project will utilize a library called bxSlider.</p>
+<ol>
+<li><p>In the <em>index.html</em> file, on line 26, find the HEADER section.  On line 32 you&apos;ll find a commented out unordered list HTML element <code>&lt;ul&gt;</code> with a class of &quot;bxslider&quot; and four list items <code>&lt;li&gt;</code>.  Uncomment the HTML markup (see GIF below). The bxSlider library is already included in the project for you as well as the necessary HTML markup.  You&#x2019;re going to add the interactivity!</p>
+<p><img src="images/uncomment.gif" alt=""></p>
+</li>
+<li><p>First, connect the bxSlider JavaScript file and CSS styling to the <em>index.html</em> file so everything will work!  The JavaScript file (<em>jquery.bxslider.min.js</em>) and the CSS file (<em>jquery.bxslider.min.css</em>) are located in the <em>assets/lib/jquery.bxslider</em> directory.  </p>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>Don&#x2019;t forget - JavaScript additions use a <code>&lt;script&gt;</code> tag while CSS additions use a <code>&lt;link&gt;</code> tag!</p>
+<p>See step 1 of the &#x201C;How to Install&#x201D; section on <a href="http://bxslider.com" target="_blank">bxslider.com</a> for further guidance.</p>
+</div></div></p>
+</li>
+<li><p>Look at the <em>index.html</em> file and find the unordered list element <code>&lt;ul&gt;</code> with a <code>bxslider</code> class to identify the markup for the slider.</p>
+</li>
+<li><p>In Atom, in the <em>my-scripts.js</em> file, call the <strong>bxSlider</strong> on your content.  Hint: See step 3 of  the &#x201C;How to Install&#x201D; section on <a href="http://bxslider.com/" target="_blank">bxslider.com</a></p>
+</li>
+<li><p>Try making some modifications to how your slider works:</p>
+<ol>
+<li>Change the mode of the slider to &apos;vertical&apos;. Hint: <a href="http://bit.ly/bxSExample" target="_blank">bit.ly/bxSExample</a>:</li>
+<li><p>Add captions to your images. Hint: <a href="http://bit.ly/bxSOpts" target="_blank">bit.ly/bxSOpts</a></p>
+</li>
+<li><p>Check your slider against the answer key here: <a href="http://bit.ly/jQFinal" target="_blank">bit.ly/jQFinal</a></p>
+</li>
+</ol>
+</li>
+</ol>
+<p><strong>Congratulations!  You created an interactive website!</strong></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="part_3_changing_colors_with_jquery.html" class="navigation navigation-prev " aria-label="Previous page: Part 3: Changing Colors with jQuery">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="homework.html" class="navigation navigation-next " aria-label="Next page: Homework">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Part 4: Content Slider","level":"1.5","depth":1,"next":{"title":"Homework","level":"1.6","depth":1,"path":"homework.md","ref":"homework.md","articles":[]},"previous":{"title":"Part 3: Changing Colors with jQuery","level":"1.4","depth":1,"path":"part_3_changing_colors_with_jquery.md","ref":"part_3_changing_colors_with_jquery.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["copy-code-button","custom-favicon","hints","sectionx"],"pluginsConfig":{"search":{},"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"favicon":"images/favicon.ico","custom-favicon":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part_4_content_slider.md","mtime":"2017-06-08T03:26:21.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-08T04:11:46.888Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
