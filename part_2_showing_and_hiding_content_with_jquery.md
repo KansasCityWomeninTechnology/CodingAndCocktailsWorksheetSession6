@@ -46,8 +46,6 @@ Ask a mentor to show you or remind you how to use Emmet to make your HTML writin
 
    3. On a separate line just below the jQuery script tag you just created and just above the `</head>` tag, add a `<script>` tag with a `src` attribute for the JavaScript file that you'll be changing (located at assets/scripts/my-scripts.js).
 
-TODO: hint here
-
 #### Show the Menu
 1.  In Atom, open the _my-scripts.js_ file from the _assets/scripts_ directory. This is where jQuery code will be added.
 
