@@ -80,19 +80,19 @@ For further reading on using jQuery in a project navigate to [bit.ly/StartjQuery
 For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http://bit.ly/docReady) in Google Chrome.
     {% endhint %}
 
-4. Add interaction to the “Show Menu” button. When the button is clicked, the `<div>` tag with the id of `#menu` should be displayed.
+3. Add interaction to the “Show Menu” button. When the button is clicked, the `<div>` tag with the id of `#menu` should be displayed.
 
-5. Capture the click event inside the `$(document).ready(function () { });` code in _my-scripts.js_.
+    1. Capture the click event inside the `$(document).ready(function () { });` code in _my-scripts.js_.
 
-6. In the _index.html_ file, find the id of the "Show Menu" button.
+    2. In the _index.html_ file, find the id of the "Show Menu" button.
 
-2. In _my_scripts.js_, place your cursor between the curly braces of the function {} and press enter. This is the **body** of the function where the code that runs when the function is called lives. Add a click event handler to the button.
+    3. In _my_scripts.js_, place your cursor between the curly braces of the function {} and press enter. This is the **body** of the function where the code that runs when the function is called lives. Add a click event handler to the button.
 
-{% hint style='tip' %}
+    {% hint style='tip' %}
 `$("#my-id").click();`
 
 Replace `#my-id` with the id you found in the _index.html_ file in the previous step.
-{% endhint %}
+    {% endhint %}
 
 2. In response to the click event, add an action to display the menu.
 
