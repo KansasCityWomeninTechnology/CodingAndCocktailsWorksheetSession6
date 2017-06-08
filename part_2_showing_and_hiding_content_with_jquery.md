@@ -135,16 +135,16 @@ Hint: [bit.ly/CnCSelect](http://bit.ly/CnCSelect)
 This will take you to the jQuery documentation on id selectors.
     {% endhint %}
 
-3. Add a jQuery action to hide that HTML div.
+    3. Add a jQuery action to hide that HTML div.
 
-{% hint style='tip' %}
+        {% hint style='tip' %}
 Hint: [bit.ly/CnCHide](http://bit.ly/CnCHide)
 
 This will take you to the jQuery documentation on the hide method.
-{% endhint %}
+    {% endhint %}
 
-4. Save your _my-scripts.js_ file.
+3. Save your _my-scripts.js_ file.
 
-5. In Google Chrome, refresh the open _index.html_ file and try clicking the "Show Menu" button and then the "Hide Menu" button. It should now show and hide the menu according to the button that you click!
+4. In Google Chrome, refresh the open _index.html_ file and try clicking the "Show Menu" button and then the "Hide Menu" button. It should now show and hide the menu according to the button that you click!
 
 **You’ve added your first interactivity to your website! Celebrate with a toast with your neighbor!**
