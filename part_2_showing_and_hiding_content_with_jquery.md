@@ -19,7 +19,7 @@ If you were at the Version Control session in April and would like to practice y
 
 5. In Google Chrome, open the _index.html_ file and try clicking the buttons. Not very exciting yet, is it?
 
-    {% hint style='tip' %}
+{% hint style='tip' %}
 You can open the file in Google Chrome in three ways:
 
 1. Open Google Chrome then choose **Open File...** from the **File** menu
@@ -27,15 +27,15 @@ You can open the file in Google Chrome in three ways:
 2. Find the file in Finder (macs) or Windows Explorer (windows), right click on it and choose to open with Google Chrome.
 
 3. Drag the file directly on to the Google Chrome browser window.
-    {% endhint %}
+{% endhint %}
 
 #### Connecting HTML & JavaScript
 
 1. Connect the HTML & the JavaScript files.
 
-    {% hint style='tip' %}
+{% hint style='tip' %}
 If you missed the HTML session and aren't sure what an HTML tag is, grab a mentor to give you a quick overview and help catch you up!
-    {% endhint %}
+{% endhint %}
 
 1. In Atom, open the _index.html_ file by double clicking on it.
 
