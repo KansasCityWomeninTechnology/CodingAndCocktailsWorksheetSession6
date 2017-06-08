@@ -90,7 +90,7 @@ For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http
       3.  Add a jQuery action to show that HTML div.
 
     {% hint style='tip' %}
-`$("#my-id").show();`
+`$("#another-id").show();`
     {% endhint %}
     
 4. Save your _my-scripts.js_ file.
