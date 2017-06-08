@@ -40,10 +40,10 @@ For information on what `this` refers to, read [bit.ly/jQueryThis](http://bit.ly
 How do we reference a parent element? Read up at [bit.ly/CnCparent](http://bit.ly/CnCparent).
     {% endhint %}
 
-    3.  We only want the color to show when the box is checked. There are a few ways to do this. Since we want to both add and remove the styling change, we’re just going to toggle the CSS styling class using the jQuery method `toggleClass()`
-
+    3.  We only want the color to show when the box is checked. There are a few ways to do this. Since we want to both add and remove the styling change, we’re just going to toggle the CSS styling class using the jQuery method `toggleClass()`.
+    
     {% hint style='tip' %}
-For more information on the `toggleClass()` method go to: [bit.ly/ToggleC](http://bit.ly/ToggleC)
+For  more information on the `toggleClass()` method go to: [bit.ly/ToggleC](http://bit.ly/ToggleC).
 
 There is already a CSS `highlight` class created for you to toggle.  You'll find the class styling in the _assets/styles/main.css_ file.
     {% endhint %}
