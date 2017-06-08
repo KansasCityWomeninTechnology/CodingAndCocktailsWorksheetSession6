@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Overview · GitBook</title>
+        <title>Part 4: Content Slider · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -69,8 +69,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="part_1_introduction.html" />
+    <link rel="next" href="homework.html" />
     
+    
+    <link rel="prev" href="part_3_changing_colors_with_jquery.html" />
     
 
     </head>
@@ -99,7 +101,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -151,7 +153,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="part_4_content_slider.html">
+        <li class="chapter active" data-level="1.5" data-path="part_4_content_slider.html">
             
                 <a href="part_4_content_slider.html">
             
@@ -220,7 +222,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Overview</a>
+        <a href="." >Part 4: Content Slider</a>
     </h1>
 </div>
 
@@ -235,87 +237,32 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="coding--cocktails-session-6">Coding &amp; Cocktails Session 6:</h1>
-<h2 id="intro-to-javascript-using-jquery">Programming Concepts 101: Intro to jQuery &amp; JavaScript </h2>
-<hr>
-
-<h3 id="overview">Overview</h3>
-<p>Practice using some of the basics of JavaScript and jQuery to make web applications respond to user interaction.  </p>
-<h3 id="project">Project</h3>
-<p>Part 1 will practice JavaScript basic concepts in CodePen.</p>
-<p>Part 2 will include changing the DOM with jQuery including color changes, hiding &amp; showing elements and more in your own Integrated Development Environment (IDE) on your computer.</p>
-<p>Part 3 will add in a content slider to the code from Part 2.  This is very useful to scroll through pictures, text, videos or any other HTML elements on a website.  Part 3 uses a library called bxSlider.</p>
-<h3 id="helpful-keyboard-shortcuts">Helpful Keyboard Shortcuts</h3>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Mac Key Combination</th>
-<th>Windows Key Combination</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Cut</td>
-<td><code>cmd</code> + <code>x</code></td>
-<td><code>ctrl</code> + <code>x</code></td>
-</tr>
-<tr>
-<td>Copy</td>
-<td><code>cmd</code> + <code>c</code></td>
-<td><code>ctrl</code> + <code>c</code></td>
-</tr>
-<tr>
-<td>Paste</td>
-<td><code>cmd</code> + <code>v</code></td>
-<td><code>ctrl</code> + <code>v</code></td>
-</tr>
-<tr>
-<td>Undo</td>
-<td><code>cmd</code> + <code>z</code></td>
-<td><code>ctrl</code> + <code>z</code></td>
-</tr>
-<tr>
-<td>Redo</td>
-<td><code>cmd</code> + <code>y</code></td>
-<td><code>ctrl</code> + <code>y</code></td>
-</tr>
-<tr>
-<td>Save</td>
-<td><code>cmd</code> + <code>s</code></td>
-<td><code>ctrl</code> + <code>s</code></td>
-</tr>
-<tr>
-<td>Select all</td>
-<td><code>cmd</code> + <code>a</code></td>
-<td><code>ctrl</code> + <code>a</code></td>
-</tr>
-<tr>
-<td>Find</td>
-<td><code>cmd</code> + <code>f</code></td>
-<td><code>ctrl</code> + <code>f</code></td>
-</tr>
-<tr>
-<td>Switch between open apps/programs</td>
-<td><code>cmd</code> + <code>tab</code></td>
-<td><code>alt</code> + <code>tab</code></td>
-</tr>
-<tr>
-<td>Switch between programs on the taskbar</td>
-<td>N/A</td>
-<td><code>windows key</code> + <code>tab</code></td>
-</tr>
-<tr>
-<td>Switch between Chrome windows.</td>
-<td><code>shift</code> + <code>cmd</code> + <code>~</code></td>
-<td>N/A</td>
-</tr>
-</tbody>
-</table>
-<p><div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle"></i></div><div class="hints-container"><p>While following along with the worksheet, type out the commands instead of doing a copy &amp; paste (<em>unless instructed to copy &amp; paste</em>) to avoid inadvertently using any incorrect characters.</p>
+                                <h3 id="part-4--content-slider">Part 4:  Content Slider</h3>
+<p>Next you&apos;ll add in a content slider to the page.  This is very useful to scroll through pictures, text, videos or any other html items on a website.  This project will utilize a library called bxSlider.</p>
+<ol>
+<li><p>In the <em>index.html</em> file, on line 26, find the HEADER section.  On line 32 you&apos;ll find a commented out unordered list HTML element <code>&lt;ul&gt;</code> with a class of &quot;bxslider&quot; and four list items <code>&lt;li&gt;</code>.  Uncomment the HTML markup (see GIF below). The bxSlider library is already included in the project for you as well as the necessary HTML markup.  You&#x2019;re going to add the interactivity!</p>
+<p><img src="images/uncomment.gif" alt=""></p>
+</li>
+<li><p>First, connect the bxSlider JavaScript file and CSS styling to the <em>index.html</em> file so everything will work!  The JavaScript file (<em>jquery.bxslider.min.js</em>) and the CSS file (<em>jquery.bxslider.min.css</em>) are located in the <em>assets/lib/jquery.bxslider</em> directory.  </p>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>Don&#x2019;t forget - JavaScript additions use a <code>&lt;script&gt;</code> tag while CSS additions use a <code>&lt;link&gt;</code> tag!</p>
+<p>See step 1 of the &#x201C;How to Install&#x201D; section on <a href="http://bxslider.com" target="_blank">bxslider.com</a> for further guidance.</p>
 </div></div></p>
-<p><a href="http://bit.ly/CnCgloss" target="_blank"><img src="images/glossary.png" alt=""></a>
-<a href="http://bit.ly/CnCTheTools" target="_blank"><img src="images/tools.png" alt=""></a></p>
+</li>
+<li><p>Look at the <em>index.html</em> file and find the unordered list element <code>&lt;ul&gt;</code> with a <code>bxslider</code> class to identify the markup for the slider.</p>
+</li>
+<li><p>In Atom, in the <em>my-scripts.js</em> file, call the <strong>bxSlider</strong> on your content.  Hint: See step 3 of  the &#x201C;How to Install&#x201D; section on <a href="http://bxslider.com/" target="_blank">bxslider.com</a></p>
+</li>
+<li><p>Try making some modifications to how your slider works:</p>
+<ol>
+<li>Change the mode of the slider to &apos;vertical&apos;. Hint: <a href="http://bit.ly/bxSExample" target="_blank">bit.ly/bxSExample</a>:</li>
+<li><p>Add captions to your images. Hint: <a href="http://bit.ly/bxSOpts" target="_blank">bit.ly/bxSOpts</a></p>
+</li>
+<li><p>Check your slider against the answer key here: <a href="http://bit.ly/jQFinal" target="_blank">bit.ly/jQFinal</a></p>
+</li>
+</ol>
+</li>
+</ol>
+<p><strong>Congratulations!  You created an interactive website!</strong></p>
 
                                 
                                 </section>
@@ -343,8 +290,12 @@
 
             
                 
+                <a href="part_3_changing_colors_with_jquery.html" class="navigation navigation-prev " aria-label="Previous page: Part 3: Changing Colors with jQuery">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="part_1_introduction.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Part 1: Introducing JavaScript & jQuery">
+                
+                <a href="homework.html" class="navigation navigation-next " aria-label="Next page: Homework">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -355,7 +306,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Overview","level":"1.1","depth":1,"next":{"title":"Part 1: Introducing JavaScript & jQuery","level":"1.2","depth":1,"path":"part_1_introduction.md","ref":"part_1_introduction.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["copy-code-button","custom-favicon","hints","sectionx"],"pluginsConfig":{"search":{},"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"favicon":"images/favicon.ico","custom-favicon":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2017-06-06T03:27:48.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-08T04:49:38.762Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Part 4: Content Slider","level":"1.5","depth":1,"next":{"title":"Homework","level":"1.6","depth":1,"path":"homework.md","ref":"homework.md","articles":[]},"previous":{"title":"Part 3: Changing Colors with jQuery","level":"1.4","depth":1,"path":"part_3_changing_colors_with_jquery.md","ref":"part_3_changing_colors_with_jquery.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["copy-code-button","custom-favicon","hints","sectionx"],"pluginsConfig":{"search":{},"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"favicon":"images/favicon.ico","custom-favicon":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part_4_content_slider.md","mtime":"2017-06-08T03:26:21.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-08T04:49:38.762Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
