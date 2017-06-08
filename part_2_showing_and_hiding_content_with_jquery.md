@@ -3,7 +3,7 @@
 #### Setup
 
 {% hint style='info' %}
-If you were at the Version Control session in April and would like to practice your Git skills, feel free to fork the repository from [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master) to your own GitHub Account and clone it down to your computer to modify.  Grab a mentor if you need some support as you do this.
+If you were at the Version Control session in April and would like to practice your Git skills, feel free to fork the repository from [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master) to your own GitHub Account and clone it down to your computer in your _CodingAndCocktails_ directory to modify.  From there, continue with step 4. Grab a mentor if you need some support as you do this.
 {% endhint %}
 
 1.  In Google Chrome, navigate to https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/archive/jquery-master.zip to download the project starting point.
@@ -12,9 +12,9 @@ If you were at the Version Control session in April and would like to practice y
 
 3. Rename the folder from _DrinkOrderApp-jquery-master_ to just _DrinkOrderApp_.
 
-3. In Atom, open the DrinkOrderApp folder by opening the **File** menu and choosing **Add Project Folder**. Navigate to the unzipped DrinkOrderApp folder and click OK.
+4. In Atom, open the DrinkOrderApp folder by opening the **File** menu and choosing **Add Project Folder**. Navigate to the unzipped DrinkOrderApp folder and click OK.
 
-4.  In Google Chrome, open the _index.html_ file and try clicking the buttons.  Not very exciting yet, is it?
+5.  In Google Chrome, open the _index.html_ file and try clicking the buttons.  Not very exciting yet, is it?
 
     {% hint style='tip' %}
 You can open the file in Google Chrome in two ways:
