@@ -1,0 +1,376 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Part 3: Changing Colors with jQuery · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="part_4_content_slider.html" />
+    
+    
+    <link rel="prev" href="part_2_showing_and_hiding_content_with_jquery.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="part_1_introduction.html">
+            
+                <a href="part_1_introduction.html">
+            
+                    
+                    Part 1: Introducing JavaScript & jQuery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="part_2_showing_and_hiding_content_with_jquery.html">
+            
+                <a href="part_2_showing_and_hiding_content_with_jquery.html">
+            
+                    
+                    Part 2: Showing and Hiding Content with jQuery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="part_3_changing_colors_with_jquery.html">
+            
+                <a href="part_3_changing_colors_with_jquery.html">
+            
+                    
+                    Part 3: Changing Colors with jQuery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="part_4_content_slider.html">
+            
+                <a href="part_4_content_slider.html">
+            
+                    
+                    Part 4: Content Slider
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="homework.html">
+            
+                <a href="homework.html">
+            
+                    
+                    Homework
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="survey.html">
+            
+                <a href="survey.html">
+            
+                    
+                    Survey
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Part 3: Changing Colors with jQuery</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="part-3-changing-colors-with-jquery">Part 3: Changing Colors with jQuery</h3>
+<p>Next we&#x2019;ll practice another common interaction on web pages: changing HTML element styling triggered by an event. When the checkbox next to a drink is selected, make the background of the drink label change colors.</p>
+<ol>
+<li><p>First, capture the event. Noticing a pattern? Capture the event, add an action.</p>
+<ol>
+<li><p>Look in the <em>index.html</em> file to find the check box elements.</p>
+<p><img src="images/checkbox.png" alt=""></p>
+</li>
+<li><p>Select the input element with a type attribute of checkbox.</p>
+<p>This time we&#x2019;ll need to utilize attribute selectors because we only want to select the input elements of type &quot;checkbox&quot;. Attribute selectors look like <code>element[&#x201C;attribute=value&#x201D;]</code>.</p>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>To read up on attribute selectors check out: <a href="http://bit.ly/AttrSel" target="_blank">bit.ly/AttrSel</a></p>
+<p>Don&#x2019;t know what an attribute is? Check this out: <a href="http://bit.ly/Attribs" target="_blank">http://bit.ly/Attribs</a></p>
+</div></div></p>
+<p><div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle"></i></div><div class="hints-container"><p>Watch your quotes here.  You may need to switch a set of double quotes (&quot;) to single quotes (&apos;) to make sure the string isn&apos;t interpreted incorrectly.</p>
+</div></div></p>
+</li>
+<li><p>Add the click event handler.</p>
+</li>
+</ol>
+<p>For a documentation on using the click event handler navigate to: <a href="http://bit.ly/CnCClick" target="_blank">bit.ly/CnCClick</a></p>
+</li>
+<li><p>Add the action:</p>
+<ol>
+<li><p>Inside of the click event handler parentheses, add the function.</p>
+</li>
+<li><p>This time, we need to select the input&#x2019;s parent element: the label.  </p>
+</li>
+</ol>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>Because we only want the current element&apos;s styling to change instead of every checkbox element, first select <code>this</code> instead of <code>input[type=&quot;checkbox&quot;]</code>.</p>
+<p>For information on what <code>this</code> refers to, read <a href="http://bit.ly/jQueryThis" target="_blank">bit.ly/jQueryThis</a>.</p>
+<p>How do we reference a parent element? Read up at <a href="http://bit.ly/CnCparent" target="_blank">bit.ly/CnCparent</a>.</p>
+</div></div></p>
+<ol>
+<li>We only want the color to show when the box is checked. There are a few ways to do this. Since we want to both add and remove the styling change, we&#x2019;re just going to toggle the CSS styling class using the jQuery method <code>toggleClass()</code>.</li>
+</ol>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>For  more information on the <code>toggleClass()</code> method go to: <a href="http://bit.ly/ToggleC" target="_blank">bit.ly/ToggleC</a>.</p>
+<p>There is already a CSS <code>highlight</code> class created for you to toggle.  You&apos;ll find the class styling in the <em>assets/styles/main.css</em> file.</p>
+</div></div></p>
+</li>
+<li><p>Save your <em>my-scripts.js</em> file.</p>
+</li>
+<li><p>In Google Chrome, refresh your page, show the menu and select a drink. The background of the selected drink should now turn green!</p>
+</li>
+</ol>
+<p><strong>Way to go rockstar!</strong></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="part_2_showing_and_hiding_content_with_jquery.html" class="navigation navigation-prev " aria-label="Previous page: Part 2: Showing and Hiding Content with jQuery">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="part_4_content_slider.html" class="navigation navigation-next " aria-label="Next page: Part 4: Content Slider">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Part 3: Changing Colors with jQuery","level":"1.4","depth":1,"next":{"title":"Part 4: Content Slider","level":"1.5","depth":1,"path":"part_4_content_slider.md","ref":"part_4_content_slider.md","articles":[]},"previous":{"title":"Part 2: Showing and Hiding Content with jQuery","level":"1.3","depth":1,"path":"part_2_showing_and_hiding_content_with_jquery.md","ref":"part_2_showing_and_hiding_content_with_jquery.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["copy-code-button","custom-favicon","hints","sectionx"],"pluginsConfig":{"search":{},"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"favicon":"images/favicon.ico","custom-favicon":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part_3_changing_colors_with_jquery.md","mtime":"2017-06-08T04:11:41.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-08T05:13:03.319Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
