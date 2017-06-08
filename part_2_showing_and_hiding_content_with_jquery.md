@@ -16,33 +16,15 @@ If you were at the Version Control session in April and would like to practice y
 
 5.  In Google Chrome, open the _index.html_ file and try clicking the buttons.  Not very exciting yet, is it?
 
-    {% hint style='tip' %}
-You can open the file in Google Chrome in three ways:
-
- 1. Open Google Chrome then choose **Open File...** from the **File** menu
-
- 2. Find the file in Finder (macs) or Windows Explorer (windows), right click on it and choose to open with Google Chrome.
-
- 3. Drag the file directly on to the Google Chrome browser window.
-    {% endhint %}
-
 #### Connecting HTML & JavaScript
 
 1. Connect the HTML & the JavaScript files.
-
-    {% hint style='tip' %}
-If you missed the HTML session and aren't sure what an HTML tag is, grab a mentor to give you a quick overview and help catch you up!
-    {% endhint %}
 
   1.  In Atom, open the _index.html_ file by double clicking on it.  
 
   2. Just above the closing `</head>` tag in the _index.html_ file, add a `<script>` tag for the jQuery library (jquery-3.2.1.min.js found in the _assets/lib_ directory of the project). The script tag should look like this: `<script src="assets/lib/jquery-3.2.1.min.js"></script>`
 
       ![](/images/addScript.gif)
-
-    {% hint style='tip' %}
-Ask a mentor to show you or remind you how to use Emmet to make your HTML writing faster!
-    {% endhint %}
 
    3. On a separate line just below the jQuery script tag you just created and just above the `</head>` tag, add a `<script>` tag with a `src` attribute for the JavaScript file that you'll be changing (located at assets/scripts/my-scripts.js).
 
