@@ -45,13 +45,13 @@ You can open the file in Google Chrome in three ways:
 
 1. Connect the HTML & the JavaScript files.
 
-{% hint style='tip' %}
+    {% hint style='tip' %}
 If you missed the HTML session and aren't sure what an HTML tag is, grab a mentor to give you a quick overview and help catch you up!
-{% endhint %}
+    {% endhint %}
 
-1. In Atom, open the _index.html_ file by double clicking on it.
+2. In Atom, open the _index.html_ file by double clicking on it.
 
-2. Just above the closing `</head>` tag in the _index.html_ file, add a `<script>` tag for the jQuery library (jquery-3.2.1.min.js found in the _assets/lib_ directory of the project). The script tag should look like this: `<script src="assets/lib/jquery-3.2.1.min.js"></script>`
+3. Just above the closing `</head>` tag in the _index.html_ file, add a `<script>` tag for the jQuery library (jquery-3.2.1.min.js found in the _assets/lib_ directory of the project). The script tag should look like this: `<script src="assets/lib/jquery-3.2.1.min.js"></script>`
 
     ![](/images/addScript.gif)
 
