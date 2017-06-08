@@ -111,11 +111,11 @@ Now that you can view the menu, make sure you can hide it when you don’t want 
 
 1. Capture the click event.
 
-1. Select the "Hide Menu" button.
+    1. Select the "Hide Menu" button.
 
-2. Add the click event handler to the button.
+    2. Add the click event handler to the button.
 
-![](/images/selectHideMenu.gif)
+        ![](/images/selectHideMenu.gif)
 
 {% hint style='tip' %}
 Hint: [bit.ly/CnCClick](http://bit.ly/CnCClick)
