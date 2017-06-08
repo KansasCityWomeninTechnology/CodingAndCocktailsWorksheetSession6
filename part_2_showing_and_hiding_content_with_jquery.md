@@ -137,11 +137,11 @@ This will take you to the jQuery documentation on id selectors.
 
     3. Add a jQuery action to hide that HTML div.
 
-        {% hint style='tip' %}
+{% hint style='tip' %}
 Hint: [bit.ly/CnCHide](http://bit.ly/CnCHide)
 
 This will take you to the jQuery documentation on the hide method.
-    {% endhint %}
+{% endhint %}
 
 3. Save your _my-scripts.js_ file.
 
