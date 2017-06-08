@@ -74,24 +74,18 @@ For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http
       2.  In _my_scripts.js_, place your cursor between the curly braces of the function {} and press enter.  This is the **body** of the function where the code that runs when the function is called lives.  Add a click event handler to the button.
 
     {% hint style='tip' %}
-`$("#my-id").click();` but replace `#my-id` with the id you found in the _index.html_ file in the previous step.
+`$("#my-id").click();` 
+
+Replace `#my-id` with the id you found in the _index.html_ file in the previous step.
     {% endhint %}
 
   2.  In response to the click event, add an action to display the menu.
 
-      1.  Inside the parentheses of the click event handler, add a function to run the action.
-
-        {% hint style='tip' %}
-`$("#my-id").click(function () {});`
-        {% endhint %}
+      1.  Inside the parentheses of the click event handler, add a function to run the action: `$("#my-id").click(function () {});`.
 
       2.  In the body of that function, select the element you want to act on, in this case the #menu div.
 
-      3.  Add a jQuery action to show that HTML div.
-
-    {% hint style='tip' %}
-`$("#another-id").show();`
-    {% endhint %}
+      3.  Add a jQuery action to show that HTML div: `$("#another-id").show();`.
     
 4. Save your _my-scripts.js_ file.
 
