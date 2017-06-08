@@ -117,11 +117,11 @@ Now that you can view the menu, make sure you can hide it when you don’t want 
 
         ![](/images/selectHideMenu.gif)
 
-{% hint style='tip' %}
+        {% hint style='tip' %}
 Hint: [bit.ly/CnCClick](http://bit.ly/CnCClick)
 
 This will take you to documentation on the jQuery click event handler.
-{% endhint %}
+    {% endhint %}
 
 2. Add the action.
 
