@@ -17,11 +17,13 @@ If you were at the Version Control session in April and would like to practice y
 5.  In Google Chrome, open the _index.html_ file and try clicking the buttons.  Not very exciting yet, is it?
 
     {% hint style='tip' %}
-You can open the file in Google Chrome in two ways:
+You can open the file in Google Chrome in three ways:
 
  1. Open Google Chrome then choose **Open File...** from the **File** menu
  
  2. Find the file in Finder (macs) or Windows Explorer (windows), right click on it and choose to open with Google Chrome.
+ 
+ 3. Drag the file directly on to the Google Chrome browser window.
     {% endhint %}
 
 #### Connecting HTML & JavaScript
@@ -69,7 +71,7 @@ For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http
 
       1.  In the _index.html_ file, find the id of the "Show Menu" button.
 
-      2.  In _my_scripts.js_, place your cursor between the curly braces of the function {} and press enter.  This is the body of the function where the code that runs when the function is called lives.  Add a click event handler to the button.
+      2.  In _my_scripts.js_, place your cursor between the curly braces of the function {} and press enter.  This is the **body** of the function where the code that runs when the function is called lives.  Add a click event handler to the button.
 
     {% hint style='tip' %}
 `$("#my-id").click();` but replace `#my-id` with the id you found in the _index.html_ file in the previous step.
@@ -79,9 +81,9 @@ For further reading on `$(document).ready();` navigate to [bit.ly/docReady](http
 
       1.  Inside the parentheses of the click event handler, add a function to run the action.
 
-    {% hint style='tip' %}
+        {% hint style='tip' %}
 `$("#my-id").click(function () {});`
-    {% endhint %}
+        {% endhint %}
 
       2.  In the body of that function, select the element you want to act on, in this case the #menu div.
 
