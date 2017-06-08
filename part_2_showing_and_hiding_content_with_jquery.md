@@ -3,9 +3,11 @@
 
 #### Setup
 
-{% hint style='info' %}
-If you were at the Version Control session in April and would like to practice your Git skills, feel free to fork the repository from [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master) to your own GitHub Account and clone it down to your computer in your _CodingAndCocktails_ directory to modify. From there, continue with step 4. Grab a mentor if you need some support as you do this.
-{% endhint %}
+    {% hint style='info' %}
+If you don't want Version Control practice just start with step 1.
+
+If you were at the Version Control session in April and would like to practice your Git skills, you can fork the repository from [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master) to your own GitHub Account, then clone it down to your computer in your _CodingAndCocktails_ directory to modify. Check out the `jquery-master` branch and from there, continue with step 4. Grab a mentor if you need some support as you do this.
+    {% endhint %}
 
 1. In Google Chrome, navigate to https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/archive/jquery-master.zip to download the project starting point.
 
@@ -39,21 +41,21 @@ If you missed the HTML session and aren't sure what an HTML tag is, grab a mento
 
 2. Just above the closing `</head>` tag in the _index.html_ file, add a `<script>` tag for the jQuery library (jquery-3.2.1.min.js found in the _assets/lib_ directory of the project). The script tag should look like this: `<script src="assets/lib/jquery-3.2.1.min.js"></script>`
 
-![](/images/addScript.gif)
+    ![](/images/addScript.gif)
 
-{% hint style='tip' %}
+    {% hint style='tip' %}
 Ask a mentor to show you or remind you how to use Emmet to make your HTML writing faster!
-{% endhint %}
+    {% endhint %}
 
 3. On a separate line just below the jQuery script tag you just created and just above the `</head>` tag, add a `<script>` tag with a `src` attribute for the JavaScript file that you'll be changing (located at assets/scripts/my-scripts.js).
 
-{% hint style='tip' %}
+    {% hint style='tip' %}
 Order of the script tags you add matters! Script tags are executed in the order that they appear in your HTML code so because our _my_scripts.js_ file will depend on jQuery, make sure the `<script>` tag for _my_scripts.js_ comes after the `<script>` tag for the jQuery library.
 
 For a refresher on `<script>` tags check out [bit.ly/scriptElement](http://bit.ly/scriptElement).
 
 For further reading on using jQuery in a project navigate to [bit.ly/StartjQuery](http://bit.ly/StartjQuery).
-{% endhint %}
+    {% endhint %}
 
 #### Show the Menu
 1. In Atom, open the _my-scripts.js_ file from the _assets/scripts_ directory. This is where jQuery code will be added.
