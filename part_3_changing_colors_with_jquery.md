@@ -36,7 +36,7 @@ Watch your quotes here.  You may need to switch a set of double quotes (") to si
 
   For a documentation on using the click event handler navigate to: [bit.ly/CnCClick](http://bit.ly/CnCClick)
 
-2.  Add the action:
+2.  Next, select the element that should change based on the previously captured event and add an action to it:
 
     1.  Inside of the click event handler parentheses, add the function.
 
