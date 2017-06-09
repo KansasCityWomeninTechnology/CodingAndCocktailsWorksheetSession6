@@ -48,7 +48,7 @@ For documentation on using the click event handler, navigate to [bit.ly/CnCClick
 
     2.  This time, we need to select the input’s parent element: the label.  
 
-    {% hint style='tip' %}
+        {% hint style='tip' %}
 Because we only want the current element's styling to change instead of every checkbox element, first select `$(this)` instead of `$(input[type="checkbox"])`.
 
 For information on what `this` refers to, read [bit.ly/jQueryThis](http://bit.ly/jQueryThis).
@@ -58,7 +58,7 @@ How do we reference a parent element? Read up at [bit.ly/CnCparent](http://bit.l
 
     3.  We only want the color to show when the box is checked. There are a few ways to do this. Since we want to both add and remove the styling change, we’re just going to toggle the CSS styling class using the jQuery method `toggleClass()`.
     
-    {% hint style='tip' %}
+        {% hint style='tip' %}
 For  more information on the `toggleClass()` method go to: [bit.ly/ToggleC](http://bit.ly/ToggleC).
 
 There is already a CSS `highlight` class created for you to toggle.  You'll find the class styling in the _assets/styles/main.css_ file.
