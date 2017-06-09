@@ -184,14 +184,6 @@ This will take you to the jQuery documentation on the hide method.
 
    Cloud9 will take a minute and create your workspace here.
 
-  {% hint style='tip' %}
-
-  To make the terminal section bigger, hover over the top line of the terminal section with your mouse - it will change to an up-down arrow icon and then you can drag up which will also make the file editing area smaller.
-
-  ![](images/c9_terminal.png)
-
-  {% endhint %}
-
 10. All the files that were cloned from the Github repo are in your workspace. 
 
 11. Close the open _README.md_ tab by clicking on the x on the tab.
