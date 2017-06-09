@@ -43,7 +43,7 @@ Watch your quotes here.  You may need to switch a set of double quotes (") to si
     2.  This time, we need to select the input’s parent element: the label.  
 
     {% hint style='tip' %}
-Because we only want the current element's styling to change instead of every checkbox element, first select `this` instead of `input[type="checkbox"]`.
+Because we only want the current element's styling to change instead of every checkbox element, first select `$(this)` instead of `$(input[type="checkbox"])`.
 
 For information on what `this` refers to, read [bit.ly/jQueryThis](http://bit.ly/jQueryThis).
         
