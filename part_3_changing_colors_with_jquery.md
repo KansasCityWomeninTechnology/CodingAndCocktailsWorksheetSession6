@@ -7,11 +7,15 @@ Next we’ll practice another common interaction on web pages: changing HTML ele
     {% hint style='tip' %}
 Noticing a pattern? 
     
-    1. Select the HTML element to react to
-    2. Capture the event on that element (ie. click event handler)
-    3. Add a function inside the event handler
-    4. Inside the event handler function body, select the HTML element to change based on the event
-    5. Add an action to that element
+1. Select the HTML element to react to
+
+2. Capture the event on that element (ie. click event handler)
+
+3. Add a function inside the event handler
+
+4. Inside the event handler function body, select the HTML element to change based on the event
+
+5. Add an action to that element
     {% endhint %}
 
   1. Look in the _index.html_ file to find the check box elements.
