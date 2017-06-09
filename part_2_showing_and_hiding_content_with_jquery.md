@@ -12,7 +12,7 @@ If you were at the Version Control session in April and would like to practice y
 
 2. In iTerm2 or Git Bash, use your command line skills to `cd` your way to your _CodingAndCocktails_ directory.
 
-3. In iTerm2 or Git Bash, type `git clone https://github.com/<yourusernamehere>/DrinkOrderApp` to bring the repository to your local computer inside your _CodingAndCocktails_ directory.
+3. In iTerm2 or Git Bash, type `git clone https://github.com/<yourGitHubusernamehere>/DrinkOrderApp.git` to bring the repository to your local computer inside your _CodingAndCocktails_ directory.
 
 4. In iTerm2 or Git Bash type `git checkout jquery-master` to switch to the appropriate branch.
 
