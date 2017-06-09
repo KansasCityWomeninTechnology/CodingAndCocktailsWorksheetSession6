@@ -2,7 +2,17 @@
 
 Next we’ll practice another common interaction on web pages: changing HTML element styling triggered by an event. When the checkbox next to a drink is selected, make the background of the drink label change colors.
 
-1. First, capture the event. Noticing a pattern? Capture the event, add an action.
+1. First, select your element and capture the event.
+
+    {% hint style='tip' %}
+Noticing a pattern? 
+    
+    1. Select the HTML element to react to
+    2. Capture the event on that element (ie. click event handler)
+    3. Add a function inside the event handler
+    4. Inside the event handler function body, select the HTML element to change based on the event
+    5. Add an action to that element
+    {% endhint %}
 
   1. Look in the _index.html_ file to find the check box elements.
   
@@ -10,7 +20,7 @@ Next we’ll practice another common interaction on web pages: changing HTML ele
 
   2.  Select the input element with a type attribute of checkbox.
   
-    This time we’ll need to utilize attribute selectors because we only want to select the input elements of type "checkbox". Attribute selectors look like `element[“attribute=value”]`.
+    This time to select the element, we’ll need to utilize attribute selectors because we only want to select the input elements of type "checkbox". Attribute selectors look like `element[“attribute=value”]`.
   
     {% hint style='tip' %}
 To read up on attribute selectors check out: [bit.ly/AttrSel](http://bit.ly/AttrSel)
@@ -22,7 +32,7 @@ Don’t know what an attribute is? Check this out: [http://bit.ly/Attribs](http:
 Watch your quotes here.  You may need to switch a set of double quotes (") to single quotes (') to make sure the string isn't interpreted incorrectly.
     {% endhint %}
 
-  3. Add the click event handler.
+  3. Now that the element has been selected, add the click event handler to it.
 
   For a documentation on using the click event handler navigate to: [bit.ly/CnCClick](http://bit.ly/CnCClick)
 
