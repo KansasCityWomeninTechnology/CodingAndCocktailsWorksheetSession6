@@ -37,8 +37,10 @@ Watch your quotes here.  You may need to switch a set of double quotes (") to si
     {% endhint %}
 
   3. Now that the element has been selected, add the click event handler to it.
-
-  For a documentation on using the click event handler navigate to: [bit.ly/CnCClick](http://bit.ly/CnCClick)
+  
+    {% hint style='tip' %}
+For documentation on using the click event handler, navigate to [bit.ly/CnCClick](http://bit.ly/CnCClick)
+    {% endhint %}
 
 2.  Next, select the element that should change based on the previously captured event and add an action to it:
 
