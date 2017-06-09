@@ -1,5 +1,11 @@
 ### Part 2: Showing and Hiding Content with jQuery
 
+{% hint style='danger' %}
+
+If you're using a Chromebook, skip down to the Cloud9 instructions at the bottom.
+
+{% endhint %}
+
 #### Setup
 
 If you don't want Version Control practice or don't know what Version Control is, just start with step 1 below.
@@ -151,3 +157,51 @@ This will take you to the jQuery documentation on the hide method.
 4. In Google Chrome, refresh the open _index.html_ file and try clicking the "Show Menu" button and then the "Hide Menu" button. It should now show and hide the menu according to the button that you click!
 
 **You’ve added your first interactivity to your website! Celebrate with a toast with your neighbor!**
+
+<!--sec data-title="Chromebooks Only: Cloud9 Instructions" data-id="section0" data-show=true data-collapse=true ces-->
+
+1. Sign up for an account at [c9.io](https://c9.io)
+
+   Note: It will ask you for credit card information, but you will not get charged for anything since we do not use features of Cloud9 that cost money. Ask a mentor for the Coding & Cocktails card for Cloud9.
+
+2. Confirm your account from your email and log in to Cloud9.
+
+3. Select **Workspaces** from the left side panel if you are not already there.
+
+4. Choose **Create a new workspace**.
+
+5. Add a name for your workspace - it can be anything you like. You do not need a description, but feel free to add one if you like.
+
+6. Leave your workspace as **Public**.
+
+7. Clone the repo from Github so the files we need for Part I will be in our workspace for us.
+
+  1. In the **Clone from Git or Mercurial URL** field enter `https://github.com/KansasCityWomeninTechnology/DrinkOrderApp.git`
+
+8. In the template section leave the template as  **HTML5**.
+
+9. Click on the **Create Workspace** button.
+
+   Cloud9 will take a minute and create your workspace here.
+
+  {% hint style='tip' %}
+
+  To make the terminal section bigger, hover over the top line of the terminal section with your mouse - it will change to an up-down arrow icon and then you can drag up which will also make the file editing area smaller.
+
+  ![](assets/images/c9_terminal.png)
+
+  {% endhint %}
+
+10. All the files that were cloned from the Github repo are in your workspace. 
+
+11. Close the open _README.md_ tab by clicking on the x on the tab.
+
+12. Open the _index.html_ file in the editor by double clicking on the file name on the left.
+
+13. On the top menu bar click on **Preview** and choose **Live Preview File** to open the preview in your workspace.  You may enlarge it to another Google Chrome tab by clicking on the expand icon.
+
+
+
+That means you're ready to start with the **Connecting HTML & JavaScript** section above!
+
+<!--endsec-->
