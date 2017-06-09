@@ -40,9 +40,9 @@ You can open the file in Google Chrome in a number of ways:
 
 3. Drag the file directly on to the Google Chrome browser window.
 
-4. In GitBash, make sure you've changed  type `start index.html`.
+4. In GitBash, make sure you've changed directories into the one containing the file you want to open and type `start index.html`.
 
-5. In iTerm2 type `open index.html`.
+5. In iTerm2, make sure you've changed directories into the one containing the file you want to open and type `open index.html`.
     {% endhint %}
 
 #### Connecting HTML & JavaScript
