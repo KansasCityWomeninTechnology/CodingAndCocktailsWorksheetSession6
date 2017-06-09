@@ -188,7 +188,7 @@ This will take you to the jQuery documentation on the hide method.
 
   To make the terminal section bigger, hover over the top line of the terminal section with your mouse - it will change to an up-down arrow icon and then you can drag up which will also make the file editing area smaller.
 
-  ![](assets/images/c9_terminal.png)
+  ![](images/c9_terminal.png)
 
   {% endhint %}
 
@@ -200,8 +200,8 @@ This will take you to the jQuery documentation on the hide method.
 
 13. On the top menu bar click on **Preview** and choose **Live Preview File** to open the preview in your workspace.  You may enlarge it to another Google Chrome tab by clicking on the expand icon.
 
+    ![](/images/expand.png)
 
-
-That means you're ready to start with the **Connecting HTML & JavaScript** section above!
+Now you're ready to start with the **Connecting HTML & JavaScript** section above!
 
 <!--endsec-->
