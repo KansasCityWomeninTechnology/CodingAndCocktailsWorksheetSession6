@@ -8,11 +8,11 @@ If you don't want Version Control practice or don't know what Version Control is
 If you were at the Version Control session in April and would like to practice your Git skills, expand the section below and follow the steps.
 
 <!--sec data-title="Version Control Practice" data-id="section0" data-show=true data-collapse=true ces-->
-1. Fork the repository from [https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp/tree/jquery-master) to your own GitHub Account.
+1. Fork the repository from [github.com/KansasCityWomeninTechnology/DrinkOrderApp](https://github.com/KansasCityWomeninTechnology/DrinkOrderApp) to your own GitHub Account.
 
 2. In iTerm2 or Git Bash, use your command line skills to `cd` your way to your _CodingAndCocktails_ directory.
 
-3. In iTerm2 or Git Bash, `git clone` the repository inside your _CodingAndCocktails_ directory.
+3. In iTerm2 or Git Bash, type `git clone https://github.com/<yourusernamehere>/DrinkOrderApp` to bring the repository to your local computer inside your _CodingAndCocktails_ directory.
 
 4. In iTerm2 or Git Bash type `git checkout jquery-master` to switch to the appropriate branch.
 
@@ -32,13 +32,17 @@ Grab a mentor if you need some support as you do this!
 5. In Google Chrome, open the _index.html_ file and try clicking the buttons. Not very exciting yet, is it?
 
     {% hint style='tip' %}
-You can open the file in Google Chrome in three ways:
+You can open the file in Google Chrome in a number of ways:
 
 1. Open Google Chrome then choose **Open File...** from the **File** menu
 
 2. Find the file in Finder (macs) or Windows Explorer (windows), right click on it and choose to open with Google Chrome.
 
 3. Drag the file directly on to the Google Chrome browser window.
+
+4. In GitBash, make sure you've changed  type `start index.html`.
+
+5. In iTerm2 type `open index.html`.
     {% endhint %}
 
 #### Connecting HTML & JavaScript
