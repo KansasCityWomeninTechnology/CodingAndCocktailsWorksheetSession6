@@ -158,7 +158,7 @@ This will take you to the jQuery documentation on the hide method.
 
 **You’ve added your first interactivity to your website! Celebrate with a toast with your neighbor!**
 
-<!--sec data-title="Chromebooks Only: Cloud9 Instructions" data-id="section0" data-show=true data-collapse=true ces-->
+<!--sec data-title="Chromebooks Only: Cloud9 Instructions" data-id="section1" data-show=true data-collapse=true ces-->
 
 1. Sign up for an account at [c9.io](https://c9.io)
 
