@@ -1,5 +1,4 @@
-#
-## Part 2: Showing and Hiding Content with jQuery
+### Part 2: Showing and Hiding Content with jQuery
 
 #### Setup
 
@@ -142,7 +141,9 @@ This will take you to the jQuery documentation on id selectors.
     3. Add a jQuery action to hide the `#menu` div.
     
     {% hint style='tip' %}
-Here's a hint.
+Hint: [bit.ly/CnCHide](http://bit.ly/CnCHide)
+
+This will take you to the jQuery documentation on the hide method.
     {% endhint %}
 
 3. Save your _my-scripts.js_ file.
