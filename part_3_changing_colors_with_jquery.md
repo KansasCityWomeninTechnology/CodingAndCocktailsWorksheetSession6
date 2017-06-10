@@ -24,7 +24,7 @@ Noticing a pattern?
 
   2.  Select the input element with a type attribute of checkbox.
   
-    This time to select the element, we’ll need to utilize attribute selectors because we only want to select the input elements of type "checkbox". Attribute selectors look like `element[“attribute=value”]`.
+    This time to select the element, we’ll need to utilize attribute selectors because we only want to select the input elements of type "checkbox". Attribute selectors look like `element[attribute="value”]`.
   
     {% hint style='tip' %}
 To read up on attribute selectors check out: [bit.ly/AttrSel](http://bit.ly/AttrSel)
