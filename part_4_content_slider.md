@@ -11,6 +11,8 @@ Next you'll add in a content slider to the page.  This is very useful to scroll 
    {% hint style='tip' %}
 Don’t forget - JavaScript additions use a `<script>` tag while CSS additions use a `<link>` tag!
 
+Also, remember order of JavaScript tags matters.  Since bxslider depends on jQuery and _my-scripts.js_ depends on bxslider, make sure the bxslider `<script>` tag comes after jQuery's `<script>` tag but before the _my-scripts.js_`<script>` tag.
+
 See step 1 of the “How to Install” section on [bxslider.com](http://bxslider.com) for further guidance.
    {% endhint %}
 
