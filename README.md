@@ -1,35 +1,26 @@
-# Coding & Cocktails Session 6:
-## Programming Concepts 101: Intro to jQuery & JavaScript {#intro-to-javascript-using-jquery}
-<hr>
+# Coding & Cocktails Session 6: JavaScript 101
 
-###Overview
-Practice using some of the basics of JavaScript and jQuery to make web applications respond to user interaction.  
+The `docs` directory contains worksheets for Coding & Cocktails session 6 published on Gitbooks: [Coding & Cocktails - Session 6: Programming Concepts 101: Intro to jQuery & JavaScript](https://legacy.gitbook.com/book/codingandcocktailskc/session-6-programming-fundamentals-101-jquery-js/details).
 
-###Project
-Part 1 will practice JavaScript basic concepts in CodePen.
+## Getting Going
 
-Part 2 will include changing the DOM with jQuery including color changes, hiding & showing elements and more in your own Integrated Development Environment (IDE) on your computer.
+```bash
+npm install
+npm run docs:install
+```
+To serve Gitbook, `npm start`.
+To build without serving, `npm run docs:build`.
 
-Part 3 will add in a content slider to the code from Part 2.  This is very useful to scroll through pictures, text, videos or any other HTML elements on a website.  Part 3 uses a library called bxSlider.
+## Associated Repos
+ 
 
-### Helpful Keyboard Shortcuts
-|Command|Mac Key Combination|Windows Key Combination|
-|--|--|--|
-|Cut|`cmd` + `x`|`ctrl` + `x`|
-|Copy|`cmd` + `c`|`ctrl` + `c`|
-|Paste|`cmd` + `v`|`ctrl` + `v`|
-|Undo|`cmd` + `z`|`ctrl` + `z`|
-|Redo|`cmd` + `y`|`ctrl` + `y`|
-|Save|`cmd` + `s`|`ctrl` + `s`|
-|Select all|`cmd` + `a`|`ctrl` + `a`|
-|Find|`cmd` + `f`|`ctrl` + `f`|
-|Switch between open apps/programs |`cmd` + `tab`|`alt` + `tab`|
-|Switch between programs on the taskbar| N/A | `windows key` + `tab`|
-|Switch between Chrome windows. |`shift` + `cmd` + `~`| N/A |
+## Associated CodePens 
 
-{% hint style='danger' %}
-While following along with the worksheet, type out the commands instead of doing a copy & paste (_unless instructed to copy & paste_) to avoid inadvertently using any incorrect characters.
-{% endhint %}
 
-[![](images/glossary.png)](http://bit.ly/CnCgloss)
-[![](images/tools.png)](http://bit.ly/CnCTheTools)
+## TODO
+- [ ] 2018 updates!
+
+## License
+![](https://lh6.googleusercontent.com/osprAumZLusoNUcKnPtOWMijWYLZ8ydrUS0gMTvMCoyhSVBd69InqiXqQjc7fH8iQiVbZLXvyyvPZXwKjeyHuPnrd2zJT1mYLa1WoziryvxOo0q7nvMnpfeeVPBgfqW0bnp1--wa)![](https://lh5.googleusercontent.com/AZZipN4uXuU6FkxA0zLbrq9EwMhky22oNI8UtjQ2-Kgzy64Jmbij_IKUwXDcqGjnHWSMg9h3ii2Dx_SLI871nVn56NyF1VnmDbkEL2m9sJ_9YYGpNC8kdiYepai1jAZLEWWt8iTW)![](https://lh6.googleusercontent.com/GSxH81qYzBJkBR39GbviwKcwxem0RbN8XTx_6BOHgziQ6OomnG-au25ZSdiNQ4rX2p2HanRGa8_SzTPhJ3SKW-Vrs6fJ8N9s0FLq1EVSwUZXrLZuUVONachwFWwqTr6PMpn1csnu)
+
+This work is licensed by [http://kcwomenintech.org/](http://kcwomenintech.org/) under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
