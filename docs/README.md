@@ -1,35 +1,27 @@
-# Coding & Cocktails Session 6:
-## Programming Concepts 101: Intro to jQuery & JavaScript {#intro-to-javascript-using-jquery}
+<div>
+    <img src="assets/logo.png" style="float: left; margin: 0px 15px 15px 0px; height:125px;">
+    <h2 style="display:inline-block;margin-top:1em;">Coding &amp; Cocktails Session 6:</h2>
+    <h3 style="margin-top:0;margin-bottom:2em;">Programming Fundamentals 101: New Kids on the JavaScript Block</h3>
+</div>
 <hr>
 
-###Overview
-Practice using some of the basics of JavaScript and jQuery to make web applications respond to user interaction.  
+### Overview
+JavaScript is the programming language of the web and is the basis of everything we see on the internet. 
 
-###Project
-Part 1 will practice JavaScript basic concepts in CodePen.
+In this session, we will become familiar with building blocks for programming such as variables, math and logic operations, and loops. We will also introduce events and interacting with the Document Object Model using JavaScript and browser interaction.
 
-Part 2 will include changing the DOM with jQuery including color changes, hiding & showing elements and more in your own Integrated Development Environment (IDE) on your computer.
 
-Part 3 will add in a content slider to the code from Part 2.  This is very useful to scroll through pictures, text, videos or any other HTML elements on a website.  Part 3 uses a library called bxSlider.
-
-### Helpful Keyboard Shortcuts
-|Command|Mac Key Combination|Windows Key Combination|
-|--|--|--|
-|Cut|`cmd` + `x`|`ctrl` + `x`|
-|Copy|`cmd` + `c`|`ctrl` + `c`|
-|Paste|`cmd` + `v`|`ctrl` + `v`|
-|Undo|`cmd` + `z`|`ctrl` + `z`|
-|Redo|`cmd` + `y`|`ctrl` + `y`|
-|Save|`cmd` + `s`|`ctrl` + `s`|
-|Select all|`cmd` + `a`|`ctrl` + `a`|
-|Find|`cmd` + `f`|`ctrl` + `f`|
-|Switch between open apps/programs |`cmd` + `tab`|`alt` + `tab`|
-|Switch between programs on the taskbar| N/A | `windows key` + `tab`|
-|Switch between Chrome windows. |`shift` + `cmd` + `~`| N/A |
-
-{% hint style='danger' %}
-While following along with the worksheet, type out the commands instead of doing a copy & paste (_unless instructed to copy & paste_) to avoid inadvertently using any incorrect characters.
+{% hint style='tip' %}
+First time at Coding & Cocktails?   [Click here to Install the Tools!](http://bit.ly/CnCTheTools)
 {% endhint %}
 
-[![](images/glossary.png)](http://bit.ly/CnCgloss)
-[![](images/tools.png)](http://bit.ly/CnCTheTools)
+{% hint style='tip' %}
+Don't know a term?   [Click here to check out our glossary!](http://bit.ly/CnCgloss)
+{% endhint %}
+
+{% hint style='tip' %}
+Want to be more efficient at working with your computer?
+
+[Click here to see our list of Helpful Keyboard Shortcuts!](/references/README.md)
+{% endhint %}
+
