@@ -1,6 +1,6 @@
 1. Declare an array called `brainSkills` below the `// Declare brainSkills array below this line` comment by typing `const brainSkills = [];`. 
    {% hint style='info' %}
-This creates an empty array called `brainSkills` that is accessible by anything in _script.js_.
+This creates an empty array called `brainSkills` that is accessible by anything in _scripts.js_.
    {% endhint %}  
 
    {% hint style='danger' %}

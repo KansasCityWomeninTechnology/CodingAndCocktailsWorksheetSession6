@@ -38,7 +38,7 @@ Business needs can be complex. We'll add conditional logic to execute different 
 ## 
 
 ## Checkpoint <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-Compare your _script.js_ against the answer key for your work so far. It might look a little different depending on spacing.  
+Compare your _scripts.js_ against the answer key for your work so far. It might look a little different depending on spacing.  
 {% include "./checkpoint.html" %}
 
 
