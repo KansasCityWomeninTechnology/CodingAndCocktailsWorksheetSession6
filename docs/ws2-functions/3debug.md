@@ -25,7 +25,7 @@ Change <code>var numberOfClicks = 0;</code> to <code>const numberOfClicks = 0;</
 </details>
    {% endhint %}
 
-1. Try clicking on the button. Oh no! Now we see an error in the console. Notice how DevTools helps you debug your script. It tells you which line of code the failure occurs `script.js:7`. The line number may be different for you.
+1. Try clicking on the button. Oh no! Now we see an error in the console. Notice how DevTools helps you debug your script. It tells you which line of code the failure occurs `scripts.js:7`. The line number may be different for you.
    {% hint style='info' %}
 It also provides information on caller of the failing line-- `HTMLButtonElement.onClick (index:25)`. As you create complex applications, there may be layers of functions called. The layers of functions called is a **call stack**. The output containing the error, along with all the functions called leading up to it, is a **stack trace**.
    {% endhint %}

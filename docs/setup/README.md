@@ -43,7 +43,7 @@ cd %USERPROFILE%/CodingAndCocktails
 
 1. Type `mkdir JavaScriptBasics` and press `Enter`.
 
-1. Navigate into the "Architecture" directory by typing `cd JavaScriptBasics` and press `Enter`.
+1. Navigate into the "JavaScriptBasics" directory by typing `cd JavaScriptBasics` and pressing `Enter`.
 
 
 ## Helpful tips as you work through the worksheet {#tips}

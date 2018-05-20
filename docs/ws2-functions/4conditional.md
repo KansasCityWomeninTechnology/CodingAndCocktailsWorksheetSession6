@@ -17,7 +17,7 @@ There are 2 different ways to apply this condition.
 Change <code>if (numberOfClicks > 2)</code> to either
 <pre>
 <code class="lang-javascript">
-if (numberOfClicks <= 3)
+if (numberOfClicks &lt;= 3)
 
 if (numberOfClicks < 4)
 </code>
@@ -44,12 +44,12 @@ const clickHandler = function(text) {
 }
    ```
 
-1. Click on the button. Your web page paused execution and DevTools now shows _script.js_. We can now step through the code line by line and inspect the function along the way.
+1. Click on the button. Your web page paused execution and DevTools now shows _scripts.js_. We can now step through the code line by line and inspect the function along the way.
    {% hint style='tip' %}
 `debugger;` works only when debugging capabilities, such as Chrome DevTools is open. 
    {% endhint %}
 
-1. In the _script.js_ tab, hover over `numberOfClicks`. It shows you the current value of the variable, 0. Click **Step** button, ![](images/step.png), to execute the next line of code in _script.js_. The line where we increment `numberOfClicks` highlights. The current value of `numberOfClicks` is still 0.
+1. In the _scripts.js_ tab, hover over `numberOfClicks`. It shows you the current value of the variable, 0. Click **Step** button, ![](images/step.png), to execute the next line of code in _scripts.js_. The line where we increment `numberOfClicks` highlights. The current value of `numberOfClicks` is still 0.
 
    {% hint style='info' %}
 The ![](images/step.png) steps through the source code. You can also Step into and step out of lines of code. Tonight we will use step. 

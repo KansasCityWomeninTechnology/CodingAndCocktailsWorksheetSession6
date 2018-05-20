@@ -29,7 +29,7 @@ Type <code>const ladyDevs = [];</code>.
    * Sister Mary Kenneth Keller
 
 
-1. Find the declaration for the function `addDevSkill` at the top of _scripts.js_. Between the `addDevSkills` and `request` functions, declare a new function to use for writing the names of the lady devs to the DOM. Your function should look like this:
+1. Find the declaration for the function `addDevSkill` at the top of _scripts.js_. After the `addDevSkill` function closing curly brace, declare a new function to use for writing the names of the lady devs to the DOM. Your function should look like this:
   
    ```javascript
 const addLadyDev = function (ladyDev) {
@@ -60,5 +60,5 @@ Take a look at how you iterated over <code>brainSkills</code> and called the <co
 ## 
 
 ## Checkpoint <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-Compare your _script.js_ against the answer key for your work. It might look a little different depending on spacing and names of Lady Devs.  
+Compare your _scripts.js_ against the answer key for your work. It might look a little different depending on spacing and names of Lady Devs.  
 {% include "./checkpoint.html" %}

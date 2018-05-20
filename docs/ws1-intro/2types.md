@@ -5,7 +5,7 @@ The value of a variable is to the right of the '=' sign.
     {% endhint %}
 
     {% hint style='working' %}
-What is the output of "What type is the first variable" when you add quotation marks around the 5? What if you change the variable in `typeof()` on line 14 to use the variable **< noun_3>** from line 6?
+What is the output of "What type is the first variable" when you add quotation marks around the 5? What if you change the variable in `typeof()` on line 13 to use the variable **< noun_3>** from line 6?
     {% endhint %}
 
 1. Remove the `* 2` from line 6 then change the `>` to `==`. Make note of the comparison value in the output.

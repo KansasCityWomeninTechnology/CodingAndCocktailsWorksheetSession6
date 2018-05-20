@@ -16,7 +16,7 @@ We'll add a new click event and set styles on DOM elements.
 ## 
 
 ## Checkpoint <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-Compare your _script.js_ against the answer key for your work. It might look a little different depending on spacing.  
+Compare your _scripts.js_ against the answer key for your work. It might look a little different depending on spacing.  
 {% include "./checkpoint.html" %}
 
 <!-- trick markdown to give me a little space between these two sections of text -->
