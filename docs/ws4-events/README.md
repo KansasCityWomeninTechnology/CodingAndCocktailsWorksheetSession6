@@ -10,7 +10,7 @@ This section will help guide you through the following steps:
 
 ## Register an event listener {#clickHandler} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
 We'll add a new click event and set styles on DOM elements.
-{% include "./1clickHandler.md" %}
+{% include "./1clickhandler.md" %}
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
