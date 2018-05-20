@@ -1,14 +1,14 @@
 {
     "root": "./docs",
     "plugins": [
-        "copy-code-button",
         "custom-favicon",
         "hints",
         "sectionx",
-        "anchors"
+        "anchors",
+        "codetabs"
     ],
     "pluginsConfig": {
-        "favicon": "images/favicon.ico",
+        "favicon": "docs/assets/favicon.ico",
         "hints": {
             "info": "fa fa-info-circle fa-lg",
             "tip": "fa fa-lightbulb-o fa-lg",
