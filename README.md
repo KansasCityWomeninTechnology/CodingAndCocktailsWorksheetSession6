@@ -12,16 +12,19 @@ To serve Gitbook, `npm start`.
 To build without serving, `npm run docs:build`.
 
 ## Associated Repos
+- [javascript-101](https://github.com/KansasCityWomeninTechnology/javascript-101)
  
 
 ## Associated CodePens 
+ - [MadLibs (part 1)](https://codepen.io/CodingCocktailsKC/pen/BRgQrE) 
+ - [ChromeBook Template](https://codepen.io/CodingCocktailsKC/pen/RyEOby)
 
 
 ## TODO
-- [ ] 2018 updates!
+- [x] 2018 updates!
 - [ ] Update GitBook Title (make sure it doesn't affect URL)
-- [ ] Update codepens
-- [ ] Create a new repo with answer key and transfer to KCWiT
+- [x] Update codepens
+- [x] Create a new repo with answer key and transfer to KCWiT
 - [ ] Add check points after each section
 
 ## License

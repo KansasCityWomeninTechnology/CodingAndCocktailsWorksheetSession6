@@ -7,9 +7,10 @@
 * [Working with functions](ws2-functions/README.md)
 * [Arrays](ws3-loops/README.md)
 * [Events](ws4-events/README.md)
+* [Quiz](quiz.md)
 
 ### Bonus
-* [Add a new list to the web page](homework/bonus.md)
+* [Add a new list to the web page](homework/new-list.md)
 * [Homework](homework/homework.md) 
 
 ----

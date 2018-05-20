@@ -1,9 +1,13 @@
-1. Declare an array called `brainSkills` after the `clickHandler` function by typing `const brainSkills = [];`. (JAD TODO probably create a comment with where the array should be declared)
+1. Declare an array called `brainSkills` below the `// Declare brainSkills array below this line` comment by typing `const brainSkills = [];`. 
    {% hint style='info' %}
 This creates an empty array called `brainSkills` that is accessible by anything in _script.js_.
    {% endhint %}  
 
-1. Place your cursor between the opening and closing square brackets and press `Enter`. Type `"HTML"`. 
+   {% hint style='danger' %}
+Don't forget to save your file after each code change!
+   {% endhint %}
+
+1. Place your cursor between the opening and closing square brackets and press `Enter`. Type `"JavaScript Types"`. 
    {% hint style='info' %}
 You added an element to the array. Your array now has a length of 1.
    {% endhint %}  
@@ -13,7 +17,7 @@ You added an element to the array. Your array now has a length of 1.
 console.log("brainSkills.length " + brainSkills.length);
    ```
 
-1. Add more skills you learned at Coding & Cocktails to the array by comma separating values. Your `brainSkills` array might look something like this:
+1. Add more skills you learned at Coding & Cocktails or about coding tonight to the array by comma separating values. Your `brainSkills` array might look something like this:
    ```javascript
 const brainSkills = [
 	"HTML",
@@ -22,7 +26,8 @@ const brainSkills = [
 	"Vim",
 	"Git",
 	"Front-End Architecture",
-	"Yeoman"
+	"Yeoman",
+    "JavaScript Types"
 ];
    ```
    {% hint style='working' %}

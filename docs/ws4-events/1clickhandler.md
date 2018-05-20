@@ -7,10 +7,14 @@ document.getElementById('coding-section').addEventListener('click', function() {
 
 1. Let's make sure we registered the listener correctly. Place your cursor between the opening and closing curly brace and press `Enter`. Add `console.log('click');`.
 
-1. In Chrome, click on part of the web page that has displays the array elements. This is sneaky-- there's no button here! Do you see anything in your console?
+1. In Chrome, click on part of the web page that displays the array elements. Do you see anything in your console?
    {% hint style='tip' %}
 Mentors are here to help! Feel free to grab a mentor if you don't see any output in the console.
    {% endhint %}  
+
+      {% hint style="tip" %}
+This is sneaky-- there's no button here! Unexpected interaction or surprises in an application are known as "Easter eggs".
+   {% endhint %}
 
 1. Remove the `console.log('click');` now that we've verified event registration.
 
@@ -18,3 +22,5 @@ Mentors are here to help! Feel free to grab a mentor if you don't see any output
    ```javascript
 document.getElementById('coding-section').classList.toggle('coding');
    ```
+
+   ![](https://media.giphy.com/media/5PhpuOph9pwoyuqHjd/giphy.gif)

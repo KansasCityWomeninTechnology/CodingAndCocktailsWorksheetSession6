@@ -5,7 +5,7 @@ for (let index = 0; index < brainSkills.length; index++) {
 }
    ```
    {% hint style='info' %}
-You are logging out the array index. The index is the value correponding to the element's position in the array. 
+You are logging out the array index. The index is the value corresponding to the element's position in the array. 
    {% endhint %}  
 
 1. We can access an array element by the index using the syntax `name-of-array[index]`. Inside the `for` loop, change the `console.log` to access each array element:
@@ -38,12 +38,11 @@ The `addDevSkill` function takes a string and adds it to the DOM as a list item.
 You can also highlight all 3 lines of the `for` loop and use keyboard shortcut `ctrl` + `/` to toggle between adding and removing comments.
    {% endhint %}  
 
-
-Below the existing `for` loop, add `brainSkills.forEach();`. We will get an error in the console.
+   Below the existing `for` loop, add `brainSkills.forEach();`. We will get an error in the console.
 
 1. The `forEach` method requires a parameter of type `function` that gets called on each array element. We need to pass in a function with an element parameter. Place your cursor between the open and close parenthesis of the `forEach` and add `function(element) {}` to look like this:
    ```javascript
-brainSkills.forEach(function(element) {});
+brainSkills.forEach( function(element) {});
    ```
 
 1. Place your cursor between the opening and closing curly brace and press `Enter`. Type `console.log(element);` to log the element parameter to the console.
