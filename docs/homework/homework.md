@@ -20,3 +20,9 @@ Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit
 ### Read the following guides for extra information
 
 1. [The Modern JavaScript Tutorial](https://javascript.info/)
+
+
+### Practice debugging
+
+1. Work through the [Debugging JavaScript tutorial](https://developers.google.com/web/tools/chrome-devtools/javascript/) from the Chrome Dev Team
+

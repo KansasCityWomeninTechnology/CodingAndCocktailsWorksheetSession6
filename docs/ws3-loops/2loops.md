@@ -1,7 +1,7 @@
 1. Iterate through the array using a `for` loop. Inside the `document.addEventListener` method, iterate through `brainSkills` array and add a console log for `index`:
    ```javascript
 for (let index = 0; index < brainSkills.length; index++) {
-    console.log(index);
+      console.log(index);
 }
    ```
    {% hint style='info' %}
@@ -10,10 +10,10 @@ You are logging out the array index. The index is the value corresponding to the
 
 1. We can access an array element by the index using the syntax `name-of-array[index]`. Inside the `for` loop, change the `console.log` to access each array element:
    ```javascript
-   console.log(index + " " + brainSkills[index]);
+console.log(index + " " + brainSkills[index]);
    ```
 
-1. Take a look in the DevTools console to see the output.
+1. In Chrome, take a look in the DevTools console to see the output.
    {% hint style='tip' %}
 Notice the first element is index 0 and the last index is array.length - 1. This affects conditional logic and is often the cause of errors. Developers call these errors "off by one error".
    {% endhint %}  
@@ -31,11 +31,11 @@ The `addDevSkill` function takes a string and adds it to the DOM as a list item.
 1. Let's refactor our `for` loop to use a shorthand syntax, `forEach`. Comment out the `for` loop by adding `//` before each line of code to look like this:
    ```javascript
 // for (let index = 0; index < brainSkills.length; index++) {
-//    addDevSkill(brainSkills[index]);
+//       addDevSkill(brainSkills[index]);
 // }
    ```
    {% hint style='tip' %}
-You can also highlight all 3 lines of the `for` loop and use keyboard shortcut `ctrl` + `/` to toggle between adding and removing comments.
+You can also highlight all 3 lines of the `for` loop and use keyboard shortcut `ctrl` + `/` on Windows and `cmd` + `/` on Macs to toggle between adding and removing comments.
    {% endhint %}  
 
    Below the existing `for` loop, add `brainSkills.forEach();`. We will get an error in the console.
