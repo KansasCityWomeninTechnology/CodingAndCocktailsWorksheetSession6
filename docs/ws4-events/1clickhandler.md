@@ -22,5 +22,6 @@ This is sneaky-- there's no button here! Unexpected interaction or surprises in 
    ```javascript
 document.getElementById('coding-section').classList.toggle('coding');
    ```
+1. Click the array elements in Chrome. Does your style change on each click?
 
    ![](https://media.giphy.com/media/5PhpuOph9pwoyuqHjd/giphy.gif)

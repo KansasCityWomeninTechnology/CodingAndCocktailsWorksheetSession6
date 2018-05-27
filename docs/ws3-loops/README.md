@@ -8,11 +8,11 @@ This section will help guide you through the following steps:
 {% include "./instruction-steps.html" %}
 
 ## Declaring and defining arrays {#array} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-Declaring arrays and using the array length property
+First we'll declare an array so we can use the array data in the application. We'll also use the array length property to determine how many items are in the array.
 {% include "./1array.md" %}
 
 ## Working with arrays {#loops} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-Accessing array elements by index and iterating over arrays
+To use the array data, we need to access the array elements. We can do this by index (AKA array position) or by iterating over each item in the array. 
 {% include "./2loops.md" %}
 
 <!-- trick markdown to give me a little space between these two sections of text -->

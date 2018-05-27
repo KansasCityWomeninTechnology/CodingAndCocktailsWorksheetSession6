@@ -28,7 +28,6 @@ Type <code>const ladyDevs = [];</code>.
    * Margaret Hamilton
    * Sister Mary Kenneth Keller
 
-
 1. Find the declaration for the function `addDevSkill` at the top of _scripts.js_. After the `addDevSkill` function closing curly brace, declare a new function to use for writing the names of the lady devs to the DOM. Your function should look like this:
   
    ```javascript

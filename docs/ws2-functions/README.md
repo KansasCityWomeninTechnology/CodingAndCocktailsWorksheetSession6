@@ -27,7 +27,7 @@ Let's get coding! We'll call a function and keep track of click events.
 {% include "./2function.md" %}
 
 ## Navigate Chrome DevTools debugging interface and learn different debugging techniques {#debug} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-As application grow, we need ways to troubleshoot code. We'll learn the basics of debugging a web app.
+As applications grow, we need ways to troubleshoot code. We'll learn the basics of debugging a web app.
 {% include "./3debug.md" %}
 
 ## Conditional logic {#conditional} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
@@ -51,7 +51,7 @@ Compare your _scripts.js_ against the answer key for your work so far. It might 
 
 [MDN Reference: if else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
-[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
+[Chrome DevTools JavaScript Debugging Reference](https://developers.google.com/web/tools/chrome-devtools/javascript/reference)
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
