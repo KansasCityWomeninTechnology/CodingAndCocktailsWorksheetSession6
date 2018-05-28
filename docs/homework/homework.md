@@ -16,6 +16,8 @@ Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit
 
 1. Codecademy learn JavaScript: [codecademy.com/learn/learn-javascript](https://www.codecademy.com/learn/learn-javascript)
 
+1. Install Google's Grasshopper App on your phone and play games to learn JavaScript on the go. Download for [Android](https://play.google.com/store/apps/details?id=com.area120.grasshopper&hl=en_CA) or [iOS](https://itunes.apple.com/ca/app/grasshopper/id579356813?mt=8).
+
 
 ### Read the following guides for extra information
 

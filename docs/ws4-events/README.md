@@ -1,5 +1,5 @@
 # Events {#top}
-In this section, we will register an click event listener and apply styles dynamically.
+In this section, we will add a click event listener and apply styles dynamically.
 
 
 <!-- trick markdown to give me a little space between these two sections of text -->
@@ -8,7 +8,7 @@ This section will help guide you through the following steps:
 
 {% include "./instruction-steps.html" %}
 
-## Register an event listener {#clickHandler} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
+## Add a click handler to toggle styles on an element {#clickHandler} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
 We'll add a new click event and set styles on DOM elements.
 {% include "./1clickhandler.md" %}
 
