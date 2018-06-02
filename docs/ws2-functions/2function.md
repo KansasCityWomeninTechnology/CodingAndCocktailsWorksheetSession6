@@ -1,6 +1,6 @@
 1. In your Atom, open _scripts.js_. You'll see MadLibs items like we had in the first section of the worksheet. 
 
-1. Search for **< noun>** and **< verb>** and replace the variables. Save the file and look at the web page in Chrome. The lavender button now has text in it, but we want it do something when we click on it.
+1. Search for **&lt;noun>** and **&lt;verb>** and replace the variables. Save the file and look at the web page in Chrome. The lavender button now has the text "I'd like a cocktail please!", but we want it do something when we click on it.
    {% hint style='tip' %}
 **Every time you make a change, save the file.** 
 

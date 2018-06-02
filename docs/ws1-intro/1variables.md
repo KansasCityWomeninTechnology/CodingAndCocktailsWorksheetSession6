@@ -1,6 +1,6 @@
 1. In Google Chrome, navigate to [https://codepen.io/CodingCocktailsKC/pen/BRgQrE](https://codepen.io/CodingCocktailsKC/pen/BRgQrE) 
 
-1. In the JS editor, look for the MadLibs items to replace. Remember these are the noun or verb text surrounded by angle brackets: **< noun_2>**.
+1. In the JS editor, look for the MadLibs items to replace. Remember these are the noun or verb text surrounded by angle brackets: **&lt;noun_2>**. You can use choose any noun or verb you like for the variable name. 
 
     ![](images/replace.png)
 
