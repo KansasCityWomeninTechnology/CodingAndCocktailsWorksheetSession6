@@ -47,7 +47,7 @@ const clickHandler = function(text) {
       numberOfClicks = numberOfClicks + 1;
 
       // rest of the function remains here
-}
+};
    ```
 
 1. In Chrome, click on the button. Your web page paused execution and DevTools now shows _scripts.js_. We can now step through the code line by line and inspect the function along the way.
