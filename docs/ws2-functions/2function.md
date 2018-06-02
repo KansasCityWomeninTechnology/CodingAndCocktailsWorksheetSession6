@@ -20,8 +20,16 @@ View the worksheet and the IDE in split screen mode to make it easier to work th
    ```javascript
 const clickHandler = function(text) {
       alert('click');
-}
+};
    ```
+   {% hint style='info' %}
+You can create functions using **Function Expression** like we did above. Or you can create functions using **Function Declaration** using the syntax 
+```javascript
+function clickHandler (text) {
+      alert('click');
+}
+```
+   {% endhint %}
 
 1. Now try clicking the button in Chrome. An alert message appears! Close the alert message by clicking "Ok".
 
