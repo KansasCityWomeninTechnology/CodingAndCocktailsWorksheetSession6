@@ -1,9 +1,12 @@
-1. In the `clickHandler` function, add an `if` statement to only show the alert for greater than 2 button clicks by adding a conditional statement:
+1. Inside the `clickHandler` function, add an `if` statement to only show the alert for greater than 2 button clicks by adding a conditional statement:
    ```javascript
 if (numberOfClicks > 2) {
       alert(text);
 }
    ```
+   {% hint style='tip' %}
+Notice the indention on the `alert(text);`. Indent everything inside the `if` statement to make it easier to read your code. Doing so helps your brain group logical units of code together at a glance!
+   {% endhint %}
 
 1. Use the `console.log` output to confirm we show the alert starting from the 3rd button click. 
    {% hint style='tip' %}

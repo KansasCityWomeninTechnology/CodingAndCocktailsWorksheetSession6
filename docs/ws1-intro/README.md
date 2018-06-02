@@ -15,7 +15,7 @@ This section will help guide you through the following steps:
 
 
 ## Declare variables and assign values {#variables} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-You'll start practicing some JavaScript basics covered in the presentation.  We'll use CodePen, an online development environment tool, and play a variation of Mad Libs. The code to replace will look like this: **< noun_1>**.  You'll replace everything including the angle brackets so **< noun_1>** becomes **drink**.
+You'll start practicing some JavaScript basics covered in the presentation.  We'll use CodePen, an online development environment tool, and play a variation of [Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs). You will replace temporary code snippets with nouns or verbs of your choosing as instructed. The code to replace will look like this: **&lt;noun_1>**.  You'll replace everything, including the angle brackets, so **&lt;noun_1>** becomes **drink**.
 
 {% hint style='tip' %}
 A noun is a person, place or thing such as "pen" or "drink."

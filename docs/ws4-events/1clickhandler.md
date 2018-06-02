@@ -1,5 +1,5 @@
 
-1. In `document.addEventListener` after the `forEach`, add `document.getElementById('coding-section').onclick = function() {};` to add an event listener.
+1. After the `brainSkills.forEach` statement, but still inside the `document.addEventListener` function, add `document.getElementById('coding-section').onclick = function() {};` to add an event listener.
 
    {% hint style='info' %}
 We are adding a function that executes upon mouse click of the HTML element with id 'coding-section'. There's a few different ways to add a click handler. We will learn about event registration next session.

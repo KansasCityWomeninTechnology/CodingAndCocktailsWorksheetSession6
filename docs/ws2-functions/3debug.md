@@ -1,4 +1,4 @@
-1. We want something nicer to display in the alert. In Atom, change the parameter you pass in to the `alert` method to use the variable named `text`. You are using the same parameter passed into the `clickHandler` function. Your code should look like this:
+1. There's a better way to display in the alert. In Atom, change the parameter you pass in to the `alert` method to use the variable named `text`. You are using the same parameter passed into the `clickHandler` function. Your code should look like this:
 
    ```javascript
 alert(text);
