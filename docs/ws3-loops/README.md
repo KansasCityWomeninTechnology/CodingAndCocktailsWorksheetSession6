@@ -28,3 +28,5 @@ Compare your _script.js_ against the answer key for your work so far. It might l
 ## References and helpful links <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
 [MDN Reference: Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
+[MDN Reference: Function](https://developer.mozilla.org/en-US/docs/Glossary/Function)
+
