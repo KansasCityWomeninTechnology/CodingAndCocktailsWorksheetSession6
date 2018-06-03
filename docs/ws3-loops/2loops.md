@@ -44,6 +44,13 @@ You can also highlight all 3 lines of the `for` loop and use keyboard shortcut `
    ```javascript
 brainSkills.forEach( function(element) {});
    ```
+   {% hint style="info" %}
+In JavaScript, you can declare **functions** and **function expressions**. Function declarations use the syntax `function myFunction(){}` while function expressions use the syntax `const myFunction = function(){};`. In a function expression, you are assigning the function to a variable. This makes it easier to pass functions as parameters. We have been using **function expressions**.
+
+Additionally, JavaScript functions can be named or anonymous. The function declaration inside the `forEach` is an example of an anonymous function.
+
+Check out the references in this section to read more about functions.
+   {% endhint %}
 
 1. Place your cursor between the opening and closing curly brace and press `Enter`. Type `console.log(element);` to log the element parameter to the console.
 
