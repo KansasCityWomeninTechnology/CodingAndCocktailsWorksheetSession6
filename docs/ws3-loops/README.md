@@ -1,5 +1,5 @@
 # Arrays and loops {#top}
-In this section, we will create and populate an array and iterate through the array to add list items to the DOM. 
+In this section, we will create and populate an array and iterate through the array to add list items to the web page. 
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 

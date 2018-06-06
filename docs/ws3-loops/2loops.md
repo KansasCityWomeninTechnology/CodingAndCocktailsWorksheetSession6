@@ -25,7 +25,7 @@ addDevSkill(brainSkills[index]);
 
 1. We now see the content of our array in the web page!
    {% hint style='working' %}
-The `addDevSkill` function takes a string and adds it to the DOM as a list item. Feel free to inspect using `debugger` to see the parameter for each function call. We will cover DOM manipulation later tonight and more next month!
+The `addDevSkill` function takes a string and adds it to the web page as a list item. Feel free to inspect using `debugger` to see the parameter for each function call.
    {% endhint %}  
 
 1. Let's refactor our `for` loop to use a shorthand syntax, `forEach`. Comment out the `for` loop by adding `//` before each line of code to look like this:
@@ -60,7 +60,7 @@ Check out the references in this section to read more about functions.
 <summary>
 Need a little help? Expand this section for guidance. 
 </summary> 
-Use <code>addDevSkill(element);</code> to call the function with the array element to display in the DOM.
+Use <code>addDevSkill(element);</code> to call the function with the array element to display on the web page.
 </details>
    {% endhint %}
 
