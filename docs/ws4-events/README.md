@@ -8,6 +8,10 @@ This section will help guide you through the following steps:
 
 {% include "./instruction-steps.html" %}
 
+{% hint style="tip" %}
+We will refer to concepts learned in previous sessions in this section. Feel free to grab a mentor to get a quick overview of HTML, the DOM, and CSS. Mentors are happy to help!
+{% endhint %}
+
 ## Add a click handler to toggle styles on an element {#clickHandler} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
 We'll add a new click event and set styles on DOM elements.
 {% include "./1clickhandler.md" %}
