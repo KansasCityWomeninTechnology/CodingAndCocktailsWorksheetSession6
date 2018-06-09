@@ -32,7 +32,7 @@ Type <code>const ladyDevs = [];</code>.
   
    ```javascript
 const addLadyDev = function (ladyDev) {
-}
+};
    ```
 
 1. Between the opening and closing curly braces of the `addLadyDev` function, type the following code to create a new list element, set the text, and add it to the DOM:
