@@ -12,7 +12,7 @@ Notice there are no quotation marks. This now references the variable named `tex
 1. To see console logging in action, open the Chrome DevTools and click on the button. You should see the number of clicks write to the console. Leave DevTools open.
 
    {% hint style='tip' %}
-Open Chrome DevTools by using `cmd` + `shift` + `i` on Macs, `F12` on Windows, and `ctrl` + `shift` + `i` on Chromebooks. Refer to [Helpful Keyboard Shortcuts](/references).
+Open Chrome DevTools by using `cmd` + `option` + `i` on Macs, `F12` on Windows, and `ctrl` + `shift` + `i` on Chromebooks. Refer to [Helpful Keyboard Shortcuts](/references).
    {% endhint %}   
 
 1. We declared `numberOfClicks` using `var`. What happens if we used `const`? In Atom, change the declaration for `numberOfClicks` to use `const`.
